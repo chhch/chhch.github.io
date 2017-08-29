@@ -1,0 +1,4 @@
+{%- for tag in include.tags -%}
+<a href="{{ site.baseurl }}{% link tags.html %}#{{tag | slugize}}"><span class="label">{{ tag }}</span></a>
+{%- unless forloop.last %}&nbsp;{% endunless -%}
+{%- endfor -%}

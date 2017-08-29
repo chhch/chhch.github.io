@@ -1,0 +1,58 @@
+# Site settings
+title: Kladde
+author: chhch
+email: chhch+github@protonmail.com
+github_username: chhch
+description: Dies. Das. Einfach verschiedene Dinge.
+lang: de_DE
+
+permalink: pretty
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+date_format: "%d.%m.%Y"
+
+# Build settings
+# cannot changed
+markdown: kramdown
+highlighter: rouge
+lsi: false
+safe: true
+incremental: false
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# can changed
+#github: [metadata]
+#encoding: UTF-8
+#kramdown:
+#  input: GFM
+#  hard_wrap: false
+#future: true
+#jailed: false
+#theme: jekyll-theme-primer
+#gfm_quirks: paragraph_end
+
+plugins:
+# must be loaded
+  - jekyll-feed
+#  - jekyll-redirect-from
+  - jekyll-seo-tag
+#  - jekyll-sitemap
+#  - jekyll-avatar
+#  - jemoji
+#  - jekyll-mentions
+#  - jekyll-livereload
+# already loaded
+#  - jekyll-coffeescript
+#  - jekyll-gist
+#  - jekyll-github-metadata
+#  - jekyll-paginate
+#  - jekyll-relative-links
+#  - jekyll-optional-front-matter
+#  - jekyll-readme-index
+#  - jekyll-default-layout
+#  - jekyll-titles-from-headings
