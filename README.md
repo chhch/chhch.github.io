@@ -2,7 +2,7 @@
 
 ## TODO
 
--   [ ] Update `_config.yml` structure
+-   [x] Update `_config.yml` structure
 -   [ ] Add docker-compose file
 -   [ ] Add Font Awesome for social icons
 -   [ ] Use other fonts for posts and headlines

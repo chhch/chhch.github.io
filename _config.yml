@@ -1,58 +1,72 @@
-# Site settings
-title: Kladde
-author: chhch
-email: chhch+github@protonmail.com
-github_username: chhch
-description: Dies. Das. Einfach verschiedene Dinge.
-lang: de_DE
+################################################################################
+# Site settings                                                                #
+################################################################################
 
-permalink: pretty
+title:                Kladde
+description:          Dies. Das. Einfach verschiedene Dinge.
+lang:                 de_DE
+author:               chhch
+email:                chhch+github@protonmail.com
+github_name:          chhch
+date_format:          "%d.%m.%Y"
 
-# Minima date format
-# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
-date_format: "%d.%m.%Y"
+################################################################################
+# Default Settings                                                             #
+#  for more settings see                                                       #
+#  https://jekyllrb.com/docs/configuration/#default-configuration              #
+#  https://git.io/v5E3u                                                        #
+################################################################################
 
-# Build settings
-# cannot changed
-markdown: kramdown
-highlighter: rouge
-lsi: false
-safe: true
-incremental: false
-gist:
-  noscript: false
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
+# Handling Reading
+safe:                 true                # cannot changed
+exclude:
+  - docker-compose
+  - Gemfile
+  - Gemfile.lock
 
-# can changed
-#github: [metadata]
-#encoding: UTF-8
-#kramdown:
-#  input: GFM
-#  hard_wrap: false
-#future: true
-#jailed: false
-#theme: jekyll-theme-primer
-#gfm_quirks: paragraph_end
+# Filtering Content
+future:               false               # changed
 
+# Plugins, see https://git.io/v5EO0
 plugins:
-# must be loaded
+# must explcit be loaded
+#  - jekyll-avatar
   - jekyll-feed
+#  - jekyll-mentions
 #  - jekyll-redirect-from
   - jekyll-seo-tag
 #  - jekyll-sitemap
-#  - jekyll-avatar
 #  - jemoji
-#  - jekyll-mentions
-#  - jekyll-livereload
 # already loaded
 #  - jekyll-coffeescript
+#  - jekyll-default-layout
 #  - jekyll-gist
 #  - jekyll-github-metadata
-#  - jekyll-paginate
-#  - jekyll-relative-links
 #  - jekyll-optional-front-matter
+#  - jekyll-paginate
 #  - jekyll-readme-index
-#  - jekyll-default-layout
+#  - jekyll-relative-links
 #  - jekyll-titles-from-headings
+# only for testing
+#  - jekyll-livereload
+
+gist:
+  noscript:           false               # cannot changed
+
+# Conversion
+markdown:             kramdown            # cannot changed
+highlighter:          rouge               # cannot changed
+lsi:                  false               # cannot changed
+incremental:          false               # cannot changed
+
+# Outputting
+permalink:            pretty
+
+# Markdown Processors
+kramdown:
+  template:           ""                  # cannot changed
+  math_engine:        mathjax             # cannot changed
+  syntax_highlighter: rouge               # cannot changed
+  input:              GFM                 # can changed
+  hard_wrap:          false               # can changed
+  gfm_quirks:         paragraph_end       # can changed
