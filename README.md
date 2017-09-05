@@ -3,7 +3,7 @@
 ## TODO
 
 -   [x] Update `_config.yml` structure
--   [ ] Add docker-compose file
+-   [x] Add docker-compose file
 -   [ ] Add Font Awesome for social icons
 -   [ ] Use other fonts for posts and headlines
 -   [ ] Maybe add Disqus comment box
