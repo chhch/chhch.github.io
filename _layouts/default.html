@@ -7,8 +7,7 @@
     {% seo %}
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}{% link favicon.ico %}">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}{% link css/main.scss %}">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}"
-          href="{{ site.baseurl }}{% link feed.xml %}">
+    {% feed_meta %}
 </head>
 <body>
 <header class="site-header">
