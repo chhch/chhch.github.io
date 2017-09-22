@@ -107,6 +107,10 @@
 
   header {
     margin-bottom: $spacing-unit;
+
+    .post-tags:before {
+      content: "| Tags: ";
+    }
   }
 
   h1 {
