@@ -87,6 +87,12 @@ body {
 .tags {
   h2 {
     margin-top: $spacing-unit;
+
+    &:before {
+      content: "\f02c";
+      font-family: $font-fa;
+      padding-right: .3em;
+    }
   }
 
   h2:first-child {

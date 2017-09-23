@@ -107,7 +107,7 @@ a {
     color: $grey-color;
   }
 
-  .social-media-list &:hover {
+  .social-media-list &:hover, .post-tags &:hover {
     text-decoration: none;
   }
 }
@@ -238,4 +238,16 @@ table {
 
   border: 1px solid $grey-color-light;
   color: $grey-color;
+
+
+  &:hover {
+      color: $text-color;
+  }
+
+  &:before {
+    content: "\f02b";
+    color: $grey-color-light;
+    font-family: $font-fa;
+    padding-right: .5em;
+  }
 }
