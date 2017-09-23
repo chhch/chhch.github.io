@@ -62,6 +62,10 @@ incremental:          false               # cannot changed
 # Outputting
 permalink:            pretty
 
+# Theme
+# Using AnchorJS, which comes with jekyll-theme-primer theme
+theme:                jekyll-theme-primer # can changed
+
 # Markdown Processors
 kramdown:
   template:           ""                  # cannot changed
