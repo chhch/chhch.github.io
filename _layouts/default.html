@@ -20,26 +20,14 @@
 </main>
 
 <footer>
-    <ul class="social-media-list">
-        {% if site.github_name %}
+      <ul class="social-media-list">
+        {% for entry in site.data.social-media %}
         <li>
-            <a href="https://github.com/{{ site.github_name }}">
-                <i class="fa fa-github-square fa-lg"></i>
+            <a href="{{ entry.href | replace: '!BASE_URL!', site.baseurl }}{{ entry.name }}">
+                <i class="fa {{ entry.icon }} fa-lg"></i>
             </a>
         </li>
-        {% endif %}
-        {% if site.email %}
-        <li>
-            <a href="mailto:{{ site.email }}">
-                <i class="fa fa-envelope-square fa-lg"></i>
-            </a>
-        </li>
-        {% endif %}
-        <li>
-            <a href="{{ site.baseurl }}{% link feed.xml %}">
-                <i class="fa fa-rss-square fa-lg"></i>
-            </a>
-        </li>
+        {% endfor %}
     </ul>
 </footer>
 <script>anchors.add();</script>
