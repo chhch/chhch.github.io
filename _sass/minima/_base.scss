@@ -98,9 +98,13 @@ a {
     color: darken($brand-color, 15%);
   }
 
-  &:hover {
+  &:hover, .social-media-list &:hover {
     color: $text-color;
     text-decoration: underline;
+  }
+
+  .social-media-list & {
+    color: $grey-color;
   }
 
   .social-media-list &:hover {
@@ -182,39 +186,9 @@ pre {
 /**
  * Icons
  */
-.icon > svg {
-  display: inline-block;
-  margin: 0 2px;
-  width: 28px;
-  height: 28px;
-  vertical-align: middle;
-
-  .figure {
-    fill: $grey-color;
-  }
-
-  .circle {
-    fill: $grey-color-light;
-  }
-
-  .background {
-    fill: $background-color;
-  }
-}
-
 .social-media-list {
-  list-style: none;
-  margin-left: 0;
   text-align: center;
-  margin-bottom: 0px;
-
-  .icon {
-    padding-right: 5px;
-  }
-
-  li + li {
-    padding-top: 5px;
-  }
+  margin-bottom: 0;
 }
 
 
