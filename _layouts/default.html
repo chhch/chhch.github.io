@@ -20,15 +20,15 @@
 </main>
 
 <footer>
-      <ul class="social-media-list">
-        {% for entry in site.data.social-media %}
-        <li>
-            <a href="{{ entry.href | replace: '!BASE_URL!', site.baseurl }}{{ entry.name }}">
-                <i class="fa {{ entry.icon }} fa-lg"></i>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
+    <ul class="social-media-list">
+      {% for entry in site.data.social-media %}
+      <li>
+          <a href="{{ entry.href | replace: '!BASE_URL!', site.baseurl }}{{ entry.name }}">
+              <i class="fa {{ entry.icon }} fa-lg"></i>
+          </a>
+      </li>
+      {% endfor %}
+  </ul>
 </footer>
 <script>anchors.add();</script>
 </body>
