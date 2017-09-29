@@ -1,12 +1,13 @@
 body {
   display: grid;
-  min-height: 100vh;
+  grid-template-columns: 1fr $content-width 1fr;
   grid-template-rows: $spacing-unit * 1.865 1fr $spacing-unit * 1.865;
   grid-row-gap: $spacing-unit;
-  grid-template-columns: auto $content-width auto;
   grid-template-areas: "hd hd hd"
                        ".. mn .."
                        "ft ft ft";
+  min-height: 100vh;
+
   > header {
     grid-area: hd;
     background-color: $grey-color-light;
