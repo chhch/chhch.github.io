@@ -5,14 +5,21 @@ tags: [liste, elementaryos]
 
 ## Paketverwaltung
 
--   ~~Synaptic~~
--   Dconf Editor
-    -   Tastenkürzel: `org/gnome/desktop/wm/keybindings`
+-   Git
+    -   `git config --global user.name "<name>"`
+    -   `git config --global user.email "<mail>"`
+-   OpenJDK
+-   nodejs (npm)
+-   Docker
+-   MongoDB
 -   KeePassX
 -   Déjà Dup
     -   Sichern: `~`, `/etc`
     -   Ignorieren: `Papierkorb`, `~/Downloads`, `~/DiskStation`, `~/gPodder/Downloads`, `~/.cache`
-    -   Speicherort: Windows-Freigabe, WORKGROUP
+    -   Einstellungen Speicherort: `Windows-Freigabe`, `WORKGROUP`
+-   Dconf Editor
+    -   Tastenkürzel: `org/gnome/desktop/wm/keybindings`
+-   hunspell-de-de (Deutsche Rechtschreibprüfung)
 -   Chrome
     -   AdBlock
     -   dict-cc
@@ -25,12 +32,6 @@ tags: [liste, elementaryos]
     -   Cooie Whitelist, With Buttons
     -   NoScript
     -   RefControl
--   OpenJDK
--   Git
-    -   `git config --global user.name "<name>"`
-    -   `git config --global user.email "<mail>"`
--   Docker
--   nodejs (npm)
 -   Atom
     -   atom-beautify
     -   file-icons
@@ -44,25 +45,22 @@ tags: [liste, elementaryos]
     -   Markdown support
     -   Mongo Plugin
     -   NodeJs
--   MongoDB
 -   Peek
 -   Mendeley
 -   gPodder
     -   <http://feeds.metaebene.me/cre/mp3>
-    -   <http://forschergeist.de/feed/mp3/>
+    -   <http://forschergeist.de/feed/mp3>
     -   <http://www1.wdr.de/radio/podcasts/wdr5/dasphilosophischeradio100.podcast>
     -   <http://podcast.wdr.de/radio/hoerspiel.xml>
+    -   <https://www.e-teaching.org/materialien/vodcast/podcast.xml>
+    -   <http://www.br-online.de/podcast/kino-kino-shortcuts/cast.xml>
     -   <http://www.srf.ch/feed/podcast/hd/b7705a5d-4b68-4cb1-9404-03932cd8d569.xml>
     -   <http://www.tagesschau.de/export/video-podcast/webl/tagesschau/index.xml>
 -   Krita
--   ~~Ubuntu Make~~
--   deutsche Rechtschreibung: hunspell-de-de
 
 ## Sonstiges
 
 -   Docker-Compose (Skript)
--   ~~sdkman (Skript)~~
--   ~~Gradle (sdkman)~~
 -   Schriftarten
-    - oft: `~/.local/share/fonts/type1/`
-    - ttf: `~/.local/share/fonts/truetype`
+    -   oft: `~/.local/share/fonts/type1/`
+    -   ttf: `~/.local/share/fonts/truetype`
