@@ -29,7 +29,7 @@ tags: [liste, elementary_os]
 -   Firefox
     -   AdBlock Plus
     -   Brief
-    -   Cooie Whitelist, With Buttons
+    -   Cookie Whitelist, With Buttons
     -   NoScript
     -   RefControl
 -   Atom
