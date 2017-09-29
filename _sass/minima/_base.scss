@@ -98,17 +98,9 @@ a {
     color: darken($brand-color, 15%);
   }
 
-  &:hover, .social-media-list &:hover {
+  &:hover {
     color: $text-color;
     text-decoration: underline;
-  }
-
-  .social-media-list & {
-    color: $grey-color;
-  }
-
-  .social-media-list &:hover, .post-tags &:hover {
-    text-decoration: none;
   }
 }
 
@@ -184,16 +176,6 @@ pre {
 
 
 /**
- * Icons
- */
-.social-media-list {
-  text-align: center;
-  margin-bottom: 0;
-}
-
-
-
-/**
  * Tables
  */
 table {
@@ -218,36 +200,5 @@ table {
   }
   td {
     border: 1px solid $grey-color-light;
-  }
-}
-
-
-/**
- * Tag
- */
-.tag {
-  background-color: $background-color;
-  display: inline;
-  padding: .2em .6em .3em;
-  font-size: $small-font-size;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: .25em;
-
-  border: 1px solid $grey-color-light;
-  color: $grey-color;
-
-
-  &:hover {
-      color: $text-color;
-  }
-
-  &:before {
-    content: "\f02b";
-    color: $grey-color-light;
-    font-family: $font-fa;
-    padding-right: .5em;
   }
 }
