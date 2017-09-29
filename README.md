@@ -5,6 +5,7 @@
 -   [x] Update `_config.yml` structure
 -   [x] Add docker-compose file
 -   [x] Add Font Awesome for social icons
+-   [ ] Tidy up SCSS
 -   [ ] Use other fonts for posts and headlines
 -   [ ] Maybe add Disqus comment box
 -   [ ] ~~Maybe add pagination~~
