@@ -1,6 +1,6 @@
 ---
 title: Programme
-tags: [liste, elementaryos]
+tags: [liste, elementary_os]
 ---
 
 ## Paketverwaltung
