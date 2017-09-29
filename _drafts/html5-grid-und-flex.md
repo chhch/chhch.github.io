@@ -39,7 +39,7 @@ Der oben stehende CSS-Code erzeugt das folgende Layout:
     30px | ft | ft | ft |
          +----+----+----+
 
-Die Einheit `fr` steht für Fraction. Der freie Platz wird entsprechend zum Verhältnis der gesamten Fraction aufgeteilt. In dem gezeigten Fall bekommen sowohl die linke als auch die rechte Spalte die hälfte der noch zur Verfügung stehenden Fläche, da die gesamte Fraction den Wert 2 hat. Bei der Definition der Reihen wurde nur eine Fraction angegeben. Also bekommt die mittlere Reihe die gesamte übrige freie Fläche.
+Die Einheit `fr` steht für Fraction. Der freie Platz wird entsprechend zum Verhältnis der gesamten Fraction aufgeteilt. In dem gezeigten Fall bekommen sowohl die linke als auch die rechte Spalte die Hälfte der noch zur Verfügung stehenden Fläche, da die gesamte Fraction den Wert 2 hat. Bei der Definition der Reihen wurde nur eine Fraction angegeben. Also bekommt die mittlere Reihe die gesamte übrige freie Fläche.
 
 Außerdem wurde das Grid mit in verschiedene Bereiche eingeteilt. In den oberen drei Spalten soll der Header der Seite dargestellt werden. Der Hauptbereich befindet sich in der Mitte. Die Spalten links und rechts von der Mitte bleiben leer. Dies wird durch mindestens ein Punkt kenntlich gemacht. Am unteren Rand befindet sich schließlich die Fußzeile.
 
@@ -90,7 +90,7 @@ Außerdem ist es möglich, Element **innerhalb des Grid-Elements** auszurichten.
 
 _Flexbox_ funktioniert ähnlich wie das Grid-Layout. Allerdings können Elemente in einer Flexbox **entweder** horizontal **oder** vertikal angeordnet werden. Ist der Inhalt nicht in einer Zeile darstellbar, wird der Inhalt ggf. **automatisch** in die nächste Zeile umgebrochen. Für ein zweidimensionales Layout ist daher ein Grid-Layout oft besser geeignet.
 
-Für die Verwendung von Flexbox muss in dem umschließende Container, die Eigenschaft `display: flex` gesetzt werden. Die enthaltenden Elemente können die Eigenschaft `flex: <grow> <shrink> <basis>` zugewiesen bekommen. Mit `flex-grow` und `flex-shrink` kann festgelegt werden, wie das Element relativ zu den anderen Elementen des Containers wächst bzw. sich verkleinert. Mit `flex-basis` wird die Breite des Elements angegeben werden, von dem aus dann evtl. wächst und sich verkleinert.
+Für die Verwendung von Flexbox muss in dem umschließenden Container, die Eigenschaft `display: flex` gesetzt werden. Die enthaltenden Elemente können die Eigenschaft `flex: <grow> <shrink> <basis>` zugewiesen bekommen. Mit `flex-grow` und `flex-shrink` kann festgelegt werden, wie das Element relativ zu den anderen Elementen des Containers wächst bzw. sich verkleinert. Mit `flex-basis` wird die Breite des Elements angegeben werden, von dem aus dann evtl. wächst und sich verkleinert.
 
 Mit `align-self` kann das Element innerhalb seines Bereichs ausgerichtet werden. Je nachdem, ob in dem Container `flex-direction: row` oder `flex-direction: column` gesetzt ist, werden die Elemente horizontal oder vertikal angeordnet. Daher fällt `justify-self` weg.
 

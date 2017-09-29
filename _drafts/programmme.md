@@ -7,11 +7,11 @@ tags: [liste, elementaryos]
 
 -   ~~Synaptic~~
 -   Dconf Editor
-    -   Tastenkürzel: org/gnome/desktop/wm/keybindings
+    -   Tastenkürzel: `org/gnome/desktop/wm/keybindings`
 -   KeePassX
 -   Déjà Dup
-    -   Sichern: ~, /etc
-    -   Ignorieren: Papierkorb, ~/Downloads, ~/DiskStation, ~/gPodder/Downloads
+    -   Sichern: `~`, `/etc`
+    -   Ignorieren: `Papierkorb`, `~/Downloads`, `~/DiskStation`, `~/gPodder/Downloads`, `~/.cache`
     -   Speicherort: Windows-Freigabe, WORKGROUP
 -   Chrome
     -   AdBlock
@@ -64,5 +64,5 @@ tags: [liste, elementaryos]
 -   ~~sdkman (Skript)~~
 -   ~~Gradle (sdkman)~~
 -   Schriftarten
-    - oft: ~/.local/share/fonts/type1/
-    - ttf: ~/.local/share/fonts/truetype
+    - oft: `~/.local/share/fonts/type1/`
+    - ttf: `~/.local/share/fonts/truetype`

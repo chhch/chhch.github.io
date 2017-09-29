@@ -41,7 +41,7 @@ tags: [liste, web]
 
 ## Sonstiges
 
--   [Wegwerf E-Mail-Adressen](http://discard.email/)
+-   [Wegwerf-E-Mail-Adressen](http://discard.email/)
 -   [Have I been pwned?](https://haveibeenpwned.com/)
 -   [Passwortstärke testen](https://github.com/dropbox/zxcvbn/issues/210)
 -   [Softwarelizenzen](https://tldrlegal.com/)
