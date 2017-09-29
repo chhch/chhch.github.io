@@ -1,3 +1,6 @@
+/**
+* Basic Layout
+*/
 body {
   display: grid;
   grid-template-rows: $spacing-unit * 1.865 1fr $spacing-unit * 1.865;
