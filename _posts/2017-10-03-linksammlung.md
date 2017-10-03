@@ -29,7 +29,7 @@ tags: [liste, web]
 
 ## Schriftarten für Code
 
--   [Schriftarten Übersicht](http://app.programmingfonts.org/#input)
+-   [Übersicht verschiedener Schriftarten](http://app.programmingfonts.org/#input)
 -   [Fira Code](https://github.com/tonsky/FiraCode)
 -   [Hack](http://sourcefoundry.org/hack/)
 
