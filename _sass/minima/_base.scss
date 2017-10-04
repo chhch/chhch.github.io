@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit-small;
 }
 
 
@@ -91,15 +91,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $brand-color;
+  color: $link-color;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $link-color-visited;
   }
 
   &:hover {
-    color: $text-color;
+    color: $link-color-hover;
     text-decoration: underline;
   }
 }
@@ -110,9 +110,9 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
+  color: $color-accent-1;
+  border-left: 4px solid $color-accent-2;
+  padding-left: $spacing-unit-small;
   @include relative-font-size(1.125);
   letter-spacing: -1px;
   font-style: italic;
@@ -130,7 +130,7 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border: 1px solid $color-accent-2;
   border-radius: 3px;
   background-color: #eef;
 }
@@ -150,7 +150,7 @@ code {
       padding: 0;
 
       &:first-child {
-        padding-right: $spacing-unit / 2;
+        padding-right: $spacing-unit-small;
       }
 
       > pre {
@@ -184,21 +184,21 @@ table {
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $color-accent-2;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: lighten($color-accent-2, 6%);
     }
   }
   th, td {
-    padding: ($spacing-unit / 3) ($spacing-unit / 2);
+    padding: $spacing-unit-smaller $spacing-unit-small;
   }
   th {
-    background-color: lighten($grey-color-light, 3%);
-    border: 1px solid darken($grey-color-light, 4%);
-    border-bottom-color: darken($grey-color-light, 12%);
+    background-color: lighten($color-accent-2, 3%);
+    border: 1px solid darken($color-accent-2, 4%);
+    border-bottom-color: darken($color-accent-2, 12%);
   }
   td {
-    border: 1px solid $grey-color-light;
+    border: 1px solid $color-accent-2;
   }
 }

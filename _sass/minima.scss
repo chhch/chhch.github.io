@@ -2,30 +2,35 @@
 
 // Define defaults for each variable.
 
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
-$small-font-size:  $base-font-size * 0.875 !default;
-$base-line-height: 1.5 !default;
-$font-fa: FontAwesome;
+$base-font-family:      "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$base-font-size:        16px !default;
+$base-font-weight:      400 !default;
+$small-font-size:       $base-font-size * 0.875 !default;
+$base-line-height:      1.5 !default;
+$font-fa:               FontAwesome;
 
-$spacing-unit:     30px !default;
+$spacing-unit:          30px !default;
+$spacing-unit-big:      $spacing-unit * 1.865;
+$spacing-unit-small:    $spacing-unit / 2;
+$spacing-unit-smaller:  $spacing-unit / 3;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$text-color:            #111 !default;
+$background-color:      #fdfdfd !default;
+$link-color:            #2a7ae2 !default;
+$link-color-visited:    darken(#2a7ae2, 15%) !default;
+$link-color-hover:      $text-color !default;
 
-$grey-color:       #828282 !default;
-$grey-color-light: lighten($grey-color, 40%) !default;
-$grey-color-dark:  darken($grey-color, 25%) !default;
+$color-accent-1:        #828282 !default;
+$color-accent-2:        lighten($color-accent-1, 40%) !default;
+$color-accent-3:        darken($color-accent-1, 25%) !default;
 
-$table-text-align: left !default;
+$table-text-align:      left !default;
 
 // Width of the content area
-$content-width:    800px !default;
+$content-width:         800px !default;
 
-$on-palm:          600px !default;
-$on-laptop:        800px !default;
+$on-palm:               600px !default;
+$on-laptop:             800px !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
