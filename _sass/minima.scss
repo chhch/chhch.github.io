@@ -16,13 +16,13 @@ $spacing-unit-smaller:  $spacing-unit / 3;
 
 $text-color:            #111 !default;
 $background-color:      #fdfdfd !default;
-$link-color:            #2a7ae2 !default;
-$link-color-visited:    darken(#2a7ae2, 15%) !default;
-$link-color-hover:      $text-color !default;
-
 $color-accent-1:        #828282 !default;
 $color-accent-2:        lighten($color-accent-1, 40%) !default;
 $color-accent-3:        darken($color-accent-1, 25%) !default;
+
+$link-color:            #2a7ae2 !default;
+$link-color-visited:    darken(#2a7ae2, 15%) !default;
+$link-color-hover:      $text-color !default;
 
 $table-text-align:      left !default;
 
