@@ -233,3 +233,93 @@ Sollen Gems aktualisiert werden, bei denen keine Version im `Gemfile` angegeben 
 
 Die Ausführung von `jekyll serve` über `bundle exec` sorgt dafür, dass nur die Gems verwendet werden, die im `Gemfile` spezifiziert sind.
 
+## Jekyll
+
+_Jeykll_ (v. 3.5.2) ermöglicht es aus Markdown-Dateien eine statische Webseite zu generieren. Neben den Markdown-Dateien, die den Inhalt der Seite enthalten, können weitere Konfigurations- und Layout-Dateien angegeben werden. Die Jekyll bei der Generierung ebenfalls berücksichtigt.
+
+Wenn nicht anders konfiguriert, wird ein Jekyll-Projekt wie folgt angelegt:
+
+```text
+.
+├── _config.yml (Konfiguration)
+├── _data (Daten können hier als .yml, .yaml, .json oder .csv abgelegt werden)
+|   └── social-media.yml
+├── _drafts (Unveröffentlichte Beiträge können hier abgelegt werden)
+|   └── github-pages-mit-jekyll-docker-image.md
+├── _includes (Code-Teile die von Layouts wiederverwendet werden können)
+|   ├── date.html
+|   └── tags.html
+├── _layouts (Templates, das Design der Seite)
+|   ├── default.html
+|   └── post.html
+├── _posts (Die einzelnen Beiträge, also der Content der Seite)
+|   ├── 2017-09-29-programmme.md
+|   └── 2017-09-30-html5-grid-layout-und-flex.md
+├── _sass (Sass-Datein die in eine einzige Stylesheet-Datei umgewandelt werden können)
+|   ├── _base.scss
+|   └── _layout.scss
+├── _site (Die genierte Seite wird hier abgelegt)
+├── index.html (Startseite)
+├── other.md (http://example.com/other.html)
+└── favicon.ico (Alle anderen Dateien und Ordner werden Eins-zu-eins in den _site-Ordner übernommen)
+```
+
+Daten können als YAML, JSON oder CSV in den Ordner `_data` abgelegt werden. Anschließend ist möglich auf die Daten über die Variable `site.data` zuzugreifen.
+
+In dem Ordner `_drafts` sind unveröffentlichte Beiträge, ohne Datum, an denen noch gearbeitet wird. Mit dem Flag `--darfts` werden auch Drafts bei der Generierung der Seite berücksichtigt.
+
+Der Inhalt von Dateien die in dem Ordner `_includes` liegen, können in andere Dateien geladen werden.
+
+Beiträge in `_post` haben in der Regel eine YAML-Kopfzeile. Diese befindet sich am Anfang der Datei in YAML-Format und ist durch `---` begrenzt. In der Kopfzeile können beispielsweise der Titel, das Datum und die Tags des Posts festgelegt werden. Ansonsten übernimmt Jekyll das Datum und den Namen für den Posts aus dessen Dateinamen. Der Dateiname muss wie folgt aufgebaut sein: `YYYY-MM-DD-Titel.md`. Standardmäßig speichert Jekyll den ersten Absatz eines Beitrags automatisch in die Variable `post.excerpt`. Neben Tags lassen sich Beiträge auch Kategorien (categories) zuordnen. Anders als Tags haben Kategorien Einfluss auf die Ordnerstruktur der generierten Seite.
+
+Jekyll kann aus Dateien mit der Endung `.sass` oder `.scss` automatisch die entsprechenden CSS-Dateien generieren. Wird die `@import`-Anweisung von Sass verwendet, müssen die importierten Dateien in den Ordner `_sass` abgelegt werden.
+
+Die Markdown-Dateien werden mit [Kramdown](https://kramdown.gettalong.org/index.html) verarbeitet. Das Code-Highlighting erfolgt mit  [Rouge](http://rouge.jneen.net/). Soll die Seite über GitHub-Pages generiert werden, müssen diese Prozessoren verwendet werden.
+
+Jekyll enthält Themes. Wird ein Themes von Jekyll verwendet müssen die Ordner `assets`, `_layouts`, `_includes` und `_sass` nicht selbst erstellt werden.
+
+### Liquid
+
+{% raw %}
+Jekyll nutzt Liquid, um Templates zu verarbeiten. Liquid-Code kann in drei Kategorien eingeteilt werden: Objects, Tags und Filter.
+
+_Objects_ sagen Liquid, wo Inhalt angezeigt werden soll. Objects und Variablen stehen innerhalb von zwei geschweiften Klammern, zum Beispiel `{{ page.title }}`.
+
+_Filter_ ändern die Ausgabe eines Liquid-Objects. Filter werden durch ein `|` eingeleitet, die Anwendung von zwei Filter sieht wie folgt aus `{{ "adam!" | capitalize | prepend: "Hello " }}`.
+
+Mit der Hilfe von _Tags_ können logische Ausdrücke und Kontrollstrukturen für Templats erstellt werden. Tags befinden sich innerhalb von zwei geschweiften Klammern und dem Prozentzeichen, zum Beispiel `{% if user %} Hello {{ user.name }}! {% endif %}`.
+
+Es werden drei Varianten von Tags unterschieden: Kontrollstrukturen, Iterationen und Zuweisung. Es werden unter anderen die Kontrollstrukturen `if (else)` und `case/when` unterstützt. Iterationen können mit einer `for`-Schleife ausgeführt werden. Bei der Zuweisung wird einer Variable ein Wert zugewiesen.
+
+Die Verwendung von Liquid kann zu unerwünschten Leerstellen führen, um dies zu verhindern, kann der Liquid-Code mit einem `-` ergänzt werden, zum Beispiel `{%- if user -%}`.
+{% endraw %}
+
+### Tags
+
+Alle Standard Liquid-Tags und -Filter werden unterstützt. Zusätzlich fügt Jekyll noch einige Tags und Filter hinzu.
+
+Codeblöcke innerhalb eines `highlight` und `endhighlight`-Tags werden auf der Seite entsprechend gerendert. Dem `highlight`-Tag können zwei Parameter mitgegeben werden. Der erste Parameter gibt die verwendete Sprache im Codeblock an. Der zweite Parameter `linenos` aktiviert die Zeilennummern. Mit `rougify list` können alle von Rouge unterstützten Sprachen angezeigt werden. Damit die Syntax korrekt hervorgehoben wird, müssen entsprechende CSS-Regeln vorhanden sind.
+
+Wird der `link`-Tag verwendet, um auf Post, Pages, Collections oder Dateien zu verlinken, prüft Jekyll beim Bauen der Seite, ob alle Links gültig sind. Zum `link`-Tag können allerdings keine Filter hinzugefügt werden.
+
+### Plugins
+
+_GitHub Pages Gem_ (v. 157) erlaubt es nur Plugins und Einstellungen zu verwenden, die auch von GitHub Pages unterstützt werden. Daher müssen in der `_config.yml` nur noch die Plugins angegeben werden, die tatsächlich verwendet werden. Falls eine Github Project Page erstellt werden soll, sind einige zusätzliche Dinge bei der Verlinkung zu beachten.
+
+Für das Erstellen eines _Atom (RSS) Feeds_, genügt es das Plugin `jekyll-feed` in die `_config.yml` einzutragen. Damit der Browser von dem Feed erfährt, kann `{% feed_meta %}` in den Head-Bereich der `default.html` hinzugefügt werden.
+
+Das Plugin `jekyll-default-layout` wird von GitHub Pages Gem aktiviert. Es setzt automatisch ein Layout, falls in der YAML-Kopfzeile einer Markdown-Datei kein Layout angegeben wurde. Daher kann die Angabe zum Beispiele bei einem Posts wegelassen werden.
+
+### Variablen
+
+Jekyll setzt einige _Variablen_, die via Liquid abrufbar sind. Die Variablen können in drei Bereichen unterteilt werden: Global-, Site- und Page-Variablen. Zu den Global-Variable gehören unter anderem `page`, `layout` und `content`. Zu den Site- und Page-Variablen zählen alle Variablen die mit `page.*` bzw. `site.*` abgefragt werden können.
+
+### Collection
+
+Neben den Collections Posts und Pages können in Jekyll auch eigene _Collections_ erstellt werden. Es ist möglich, einen Namen und den Pfad zu einer Collection anzugeben. Für Posts wäre der Pfad beispielsweise `_post`. Weitere Einstellungen sind möglich, wie zum Beispiel das Festlegen eines Standard Layouts für die Dateien in der Collection/Ordner.
+
+### Permalink
+
+_Permalinks_ bestimmen den Aufbau der URLs (ohne Domainname und Pfad) für Posts, Pages und Collections. Jekyll erlaubt es für den Permalink ein Template anzugeben, dieser ist für Posts standardmäßig `/:categories/:year/:month/:day/:title.html`.
+
+Jekyll bringt außerdem einige Templatestyles mit. Der Style `pretty` sorgt für folgende URL `/:categories/:year/:month/:day/:title/`. Beim Bauen der Seite erstellt Jekyll für jeden Post, Page und Collection einen Ordner mit dem Namen des Posts und fügt den Post als index.html in den Ordner, sodass der Post anschließend ohne `.html` in URL aufgerufen werden kann.
