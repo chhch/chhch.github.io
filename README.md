@@ -6,11 +6,12 @@
 -   [x] ~~Add docker-compose file~~
 -   [x] Add Font Awesome for social icons
 -   [ ] Tidy up SCSS
--   [ ] Use other fonts for posts and headlines
+-   [x] Use other fonts for posts and headlines
 -   [ ] Add link to github file history on each post
 -   [x] Use shell script to start docker container instead docker compose
 -   [ ] ~~Maybe add Disqus comment box~~
 -   [ ] ~~Maybe add pagination~~
+-   [ ] Update Tag page
 
 ## Credits
 
