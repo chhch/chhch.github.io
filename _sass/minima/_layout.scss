@@ -15,22 +15,20 @@ body {
  */
 body > header {
   background-color: $color-accent-2;
+  border-bottom: 1px solid $color-accent-3;
   border-top: 5px solid $color-accent-3;
-  border-bottom: 1px solid $color-accent-2;
   padding-left: $spacing-unit-small;
 }
 
 .site-title {
   @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $spacing-unit-big;
+  font-weight: 100;
   letter-spacing: -1px;
-  margin-bottom: 0;
-  text-align: center;
+  line-height: $spacing-unit-big;
 
   &,
   &:visited {
-    color: $text-color;
+    color: $color-text;
   }
 }
 
@@ -40,7 +38,7 @@ body > header {
  * Site footer
  */
 body > footer {
-  border-top: 1px solid $color-accent-2;
+  border-top: 2px solid $color-accent-2;
   padding-top: $spacing-unit-small;
 }
 
@@ -52,12 +50,11 @@ body > footer {
   }
 
   a {
-    color: $color-accent-1;
+    color: $color-link;
   }
 
   a:hover {
-    color: $text-color;
-    text-decoration: none;
+    color: $color-link-hover;
   }
 }
 
@@ -69,10 +66,6 @@ body > footer {
 body > main {
   justify-self: center;
   max-width: $content-width;
-}
-
-.page-heading {
-  @include relative-font-size(1.25);
 }
 
 .post-list {
@@ -91,46 +84,42 @@ body > main {
 }
 
 .post-date {
-  color: $color-accent-1;
-  flex: 0 0 auto;
+  display: inline-block;
 }
 
 .post-description {
-  flex: 1 1 auto;
+  display: inline-block;
   margin-left: $spacing-unit-small;
 }
 
-.post-tags {
-  a:hover {
-    text-decoration: none;
-  }
-}
-
 .tag {
-  background-color: $background-color;
   display: inline;
   padding: .2em .6em .3em;
-  font-size: $small-font-size;
+  font-size: $font-size-small;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: .25em;
 
-  border: 1px solid $color-accent-2;
-  color: $color-accent-1;
+  border: 1px solid $color-accent-3;
+  color: $color-accent-3;
 
 
   &:hover {
-      color: $text-color;
+      color: $color-text;
   }
 
   &:before {
     content: "\f02b";
-    color: $color-accent-2;
-    font-family: $font-fa;
+    color: $color-accent-3;
+    font-family: FontAwesome;
     padding-right: .5em;
   }
+}
+
+.anchorjs-link {
+  display: inline-block;
 }
 
 /**
@@ -162,36 +151,50 @@ body > main {
   }
 
   h1 {
-    @include relative-font-size(2.625);
+    @include relative-font-size(3.625);
+    @include media-query($on-laptop) {
+      @include relative-font-size(3.25);
+    }
+
+    font-weight: 700;
     letter-spacing: -1px;
     line-height: 1;
-
-    @include media-query($on-laptop) {
-      @include relative-font-size(2.25);
-    }
   }
 
   h2 {
-    @include relative-font-size(2);
-
+    @include relative-font-size(3);
     @include media-query($on-laptop) {
-      @include relative-font-size(1.75);
+      @include relative-font-size(2.75);
+    }
+
+    &:before {
+      @include relative-font-size(2);
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.75);
+      }
+
+      color: $color-accent-1;
+      content: "☐";
+      margin-left: -1.3em;
+      padding-right: .4em;
+      vertical-align: middle;
+      width: 1em;
     }
   }
 
   h3 {
-    @include relative-font-size(1.625);
-
+    @include relative-font-size(2.625);
     @include media-query($on-laptop) {
-      @include relative-font-size(1.375);
+      @include relative-font-size(2.375);
     }
+
+    text-decoration: underline;
   }
 
   h4 {
-    @include relative-font-size(1.25);
-
+    @include relative-font-size(2.25);
     @include media-query($on-laptop) {
-      @include relative-font-size(1.125);
+      @include relative-font-size(2.125);
     }
   }
 }

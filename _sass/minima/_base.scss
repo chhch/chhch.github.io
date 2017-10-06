@@ -14,10 +14,10 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
-  -webkit-text-size-adjust: 100%;
+  font: $font-weight #{$font-size}/#{$line-height} $font-family;
+  text-align: justify;
+  color: $color-text;
+  background-color: $color-background;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
        -o-font-feature-settings: "kern" 1;
@@ -31,7 +31,7 @@ body {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
+p, blockquote, pre, hr,
 ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit-small;
@@ -57,7 +57,7 @@ figure > img {
 }
 
 figcaption {
-  font-size: $small-font-size;
+  font-size: $font-size-small;
 }
 
 
@@ -82,7 +82,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font-weight: $base-font-weight;
+  font: $font-weight #{$font-size}/#{$line-height-headline} $font-family-headline;
 }
 
 
@@ -91,16 +91,15 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: $link-color;
+  color: $color-link;
   text-decoration: none;
 
   &:visited {
-    color: $link-color-visited;
+    color: $color-link-visited;
   }
 
   &:hover {
-    color: $link-color-hover;
-    text-decoration: underline;
+    color: $color-link-hover;
   }
 }
 
@@ -110,16 +109,25 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $color-accent-1;
-  border-left: 4px solid $color-accent-2;
-  padding-left: $spacing-unit-small;
   @include relative-font-size(1.125);
-  letter-spacing: -1px;
+  border-left: 4px solid $color-accent-2;
+  color: $color-accent-1;
   font-style: italic;
+  letter-spacing: -1px;
+  padding-left: $spacing-unit-small;
 
   > :last-child {
     margin-bottom: 0;
   }
+}
+
+
+
+/**
+* Horizontal rule / Thematic break
+*/
+hr {
+  border: 1px solid $color-accent-3;
 }
 
 
@@ -132,21 +140,18 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid darken($color-accent-2, 4%);
   border-radius: 3px;
-  background-color: lighten($color-accent-2, 6%);
+  background-color: $color-accent-2;
 }
 
 code {
-  padding: 1px 5px;
+  padding: 1px 3px;
 
   table {
+    border: none;
     margin: 0;
     width: auto;
-    text-align: left;
-    color: inherit;
-    border: none;
 
     td {
-      border: none;
       padding: 0;
 
       &:first-child {
@@ -163,7 +168,7 @@ code {
 }
 
 pre {
-  padding: 8px 12px;
+  padding: $spacing-unit-smaller $spacing-unit-small;
   overflow-x: auto;
 
   > code {
@@ -176,29 +181,40 @@ pre {
 
 
 /**
+* Definition list
+*/
+dt {
+  font-weight: bold;
+  font-style: italic;
+}
+
+dd {
+  font-style: italic;
+  margin-bottom: $spacing-unit-smaller;
+}
+
+
+
+/**
  * Tables
  */
 table {
+  border-top: 2px solid darken($color-accent-2, 12%);
+  border-bottom: 2px solid darken($color-accent-2, 12%);
+  border-collapse: collapse;
   margin-bottom: $spacing-unit;
   width: 100%;
-  text-align: $table-text-align;
-  color: lighten($text-color, 18%);
-  border-collapse: collapse;
-  border: 1px solid $color-accent-2;
-  tr {
-    &:nth-child(even) {
-      background-color: lighten($color-accent-2, 6%);
-    }
-  }
+
   th, td {
     padding: $spacing-unit-smaller $spacing-unit-small;
   }
+
   th {
-    background-color: lighten($color-accent-2, 3%);
-    border: 1px solid darken($color-accent-2, 4%);
-    border-bottom-color: darken($color-accent-2, 12%);
+    border-bottom: 1px solid darken($color-accent-2, 12%);
+    text-align: center;
   }
+
   td {
-    border: 1px solid $color-accent-2;
+    border-bottom: 1px solid $color-accent-2;
   }
 }
