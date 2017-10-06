@@ -51,8 +51,10 @@ $on-laptop:             800px !default;
 
 // Import partials.
 @import
+  "font-awesome-4.7.0/font-awesome",
+  "google-fonts/amatic-sc",
+  "google-fonts/raleway",
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting",
-  "font-awesome-4.7.0/font-awesome"
+  "minima/syntax-highlighting"
 ;
