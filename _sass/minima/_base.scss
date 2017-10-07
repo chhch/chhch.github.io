@@ -127,7 +127,12 @@ blockquote {
 * Horizontal rule / Thematic break
 */
 hr {
-  border: 1px solid $color-accent-3;
+  border: none;
+  text-align: center;
+
+  &:before {
+    content: "⚫ ⚫ ⚫";
+  }
 }
 
 
