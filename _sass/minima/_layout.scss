@@ -93,24 +93,27 @@ body > main {
 }
 
 .tag {
-  display: inline;
-  padding: .2em .6em .3em;
-  font-size: $font-size-small;
-  line-height: 1;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: baseline;
   border-radius: .25em;
-
   border: 1px solid $color-accent-3;
   color: $color-accent-3;
-
+  display: inline;
+  font-size: $font-size-small;
+  line-height: 1;
+  padding: .2em .6em .3em;
+  text-align: center;
+  vertical-align: baseline;
+  white-space: nowrap;
 
   &:hover {
       color: $color-text;
+
+      &:before {
+        color: $color-text;
+      }
   }
 
   &:before {
+    display: inline-block;
     content: "\f02b";
     color: $color-accent-3;
     font-family: FontAwesome;
@@ -131,18 +134,38 @@ body > main {
   }
 }
 
+
+
 /**
 * Tag Index
 */
 .tag-index {
-  h2 {
+  > ul {
     margin-top: $spacing-unit;
+    list-style: none;
+
+    li > .tag-head {
+      font: $font-weight #{$font-size}/#{$line-height-headline} $font-family-headline;
+      @include relative-font-size(3);
+      @include media-query($on-laptop) {
+        @include relative-font-size(2.75);
+      }
+    }
 
     &:first-child {
       margin-top: 0;
     }
+
+    ul {
+      margin-bottom: $spacing-unit;
+
+      li {
+        margin-bottom: $spacing-unit-small;
+      }
+    }
   }
 }
+
 
 
 /**

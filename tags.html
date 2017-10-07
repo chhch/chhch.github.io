@@ -4,19 +4,22 @@ title: Tags
 ---
 
 <div class="tag-index">
+    <ul>
     {% assign sorted_tags = site.tags | sort %}
     {% for tag in sorted_tags %}
-    <h2 id="{{ tag[0] | slugize }}" class="tag-head">{{ tag[0] }}</h2>
-    <ul class="post-list">
-        {% for post in tag[1] %}
-        <li>
-            {% include date.html date=post.date %}
-            <div class="post-description">
-                <span class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span>
-                {% include tags.html tags=post.tags %}
-            </div>
-        </li>
-        {% endfor %}
-    </ul>
+      <li id="{{ tag[0] | slugize }}"><span class="tag-head">{{ tag[0] }}</span>
+      <ul class="post-list">
+          {% for post in tag[1] %}
+          <li>
+              {% include date.html date=post.date %}
+              <div class="post-description">
+                  <span class="post-link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></span>
+                  {% include tags.html tags=post.tags %}
+              </div>
+          </li>
+          {% endfor %}
+      </ul>
+      </li>
     {% endfor %}
+    </ul>
 </div>

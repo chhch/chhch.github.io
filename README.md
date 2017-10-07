@@ -11,7 +11,7 @@
 -   [x] Use shell script to start docker container instead docker compose
 -   [ ] ~~Maybe add Disqus comment box~~
 -   [ ] ~~Maybe add pagination~~
--   [ ] Update Tag page
+-   [x] Update Tag page
 
 ## Credits
 
