@@ -177,6 +177,10 @@ body > main {
   header {
     margin-bottom: $spacing-unit;
 
+    .post-history:before {
+      content: "| Änderungen: ";
+    }
+
     .post-tags:before {
       content: "| Tags: ";
     }
