@@ -5,7 +5,7 @@
 -   [x] Update `_config.yml` structure
 -   [x] ~~Add docker-compose file~~
 -   [x] Add Font Awesome for social icons
--   [ ] Tidy up SCSS
+-   [x] Tidy up SCSS
 -   [x] Use other fonts for posts and headlines
 -   [ ] Add link to github file history on each post
 -   [x] Use shell script to start docker container instead docker compose
