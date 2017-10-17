@@ -94,4 +94,4 @@ Für die Verwendung von Flexbox muss in dem umschließenden Container, die Eigen
 
 Mit `align-self` kann das Element innerhalb seines Bereichs ausgerichtet werden. Je nachdem, ob in dem Container `flex-direction: row` oder `flex-direction: column` gesetzt ist, werden die Elemente horizontal oder vertikal angeordnet. Daher fällt `justify-self` weg.
 
-Die Audrücke `align-content` und `justify-content` beziehen sich, wie beim Grid Layout, auf die Poistion der Elemente innerhalb des Containers.
+Die Ausdrücke `align-content` und `justify-content` beziehen sich, wie beim Grid Layout, auf die Position der Elemente innerhalb des Containers.
