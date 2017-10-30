@@ -45,6 +45,7 @@ tags: [liste, web]
 -   [Have I been pwned?](https://haveibeenpwned.com/)
 -   [Passwortstärke testen](https://github.com/dropbox/zxcvbn/issues/210)
 -   [Softwarelizenzen](https://tldrlegal.com/)
+-   [Softwarelizenzen Tabelle](https://choosealicense.com/appendix/)
 -   [Großschreibung englischer Titel](http://www.titlecapitalization.com/)
 -   [Geschickt Gendern](http://geschicktgendern.de/)
 -   [Unicode Tabelle](http://unicode-table.com/)
