@@ -3,57 +3,72 @@ title: Linksammlung E-Learning
 tags: [liste, e-learning]
 ---
 
+## Liste
+
 -   <http://c4lpt.co.uk/top100tools/>
 
-## Beispiele Lehrmaterialien
+## Lernen
 
--   <https://h5p.org/>
--   <https://mathigon.org/about#research>
--   <https://de.khanacademy.org>
--   <http://explorabl.es/>
--   <http://edulo.com/>
--   <https://learningapps.org/>
--   <https://merlot.org/merlot/materials.htm>
--   <http://vischool.de/>
--   <https://vimeo.com/98431150>
+-   <https://mathigon.org/about#research> :star:
+-   <https://de.khanacademy.org> :star:
+-   <http://explorabl.es/> :star:
+-   <https://sagesaufdeutsch.de/>
+-   <https://de.serlo.org/>
 -   <https://oncampus.de/master/demokurse.html>
 -   <https://oncampus.de/ueber-uns/demokurse.html>
--   <https://sagesaufdeutsch.de/>
--   <https://imoox.at/mooc/>
--   <https://www.coursera.org/>
--   <https://www.udemy.com/>
--   <http://xerte.org.uk/index.php?lang=en>
--   <http://insightlt.com/site/index.php>
--   <https://memucho.de>
--   <http://adlnet.org/PALMS>
 -   <https://quizlet.com/de>
--   <https://de.serlo.org/>
--   <https://mooin.oncampus.de/>
 -   <https://www.openlearnware.de/>
 
-## Beispiele Lehrmaterialien erstellen
+### MOOCs
 
--   <https://articulate.com/>
--   <https://tutory.de/>
--   <https://ispringsolutions.com/ispring-suite/features>
+-   <https://imoox.at/mooc/>
+-   <https://mooin.oncampus.de/>
+-   <https://www.coursera.org/> (kostenpflichtig)
+-   <https://www.udemy.com/> (kostenpflichtig)
+-   <http://insightlt.com/site/index.php> (kostenpflichtig)
+
+### Sammlungen
+
+-   <http://vischool.de/>
+-   <https://memucho.de>
+-   <https://learningapps.org/>
+-   <https://merlot.org/merlot/materials.htm>
+
+## Lehre
+
+-   <https://h5p.org/> :star:
+-   <https://articulate.com/> (kostenpflichtig) :star:
+-   <https://tutory.de/> :star:
+-   <https://ispringsolutions.com/ispring-suite/features> :star:
+-   <http://xerte.org.uk/index.php?lang=en>
 -   <https://nearpod.com/>
 -   <https://explaineverything.com/>
--   <http://www.adobe.com/de/products/captivate.html>
+-   <http://www.adobe.com/de/products/captivate.html> (kostenpflichtig)
 -   <https://www.instructure.com/>
--   <https://www.socrative.com/>
 -   <https://softchalk.com/>
--   <https://kahoot.com>
--   <https://www.polleverywhere.com/>
--   <https://www.mentimeter.com/>
--   <http://www.blackboard.com>
 -   <http://www.lectora.com/>
--   <https://www.easygenerator.com/>
+-   <https://www.easygenerator.com/> (kostenpflichtig)
 -   <https://www.schoology.com/>
 -   <http://www.udutu.com/>
--   <https://www.hihaho.com/>
 -   <https://www.thinkific.com/>
--   <https://www.quizizz.com/>
+
+### Plattform
+
 -   <http://edu-sharing.com>
+-   <http://edulo.com/>
+-   <https://www.oercommons.org/>
+
+### Interaktives Video
+
+-   <https://www.hihaho.com/> (kostenpflichtig)
+
+### Quiz
+
+-   <https://www.mentimeter.com/>
+-   <https://www.socrative.com/>
+-   <https://kahoot.com>
+-   <https://www.polleverywhere.com/>
+-   <https://www.quizizz.com/>
 
 ## Wissenschaftliche Arbeiten
 
