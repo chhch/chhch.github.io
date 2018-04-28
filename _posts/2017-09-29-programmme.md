@@ -1,5 +1,5 @@
 ---
-title: Programme
+title: Systemkonfiguration
 tags: [liste, elementary_os]
 ---
 
