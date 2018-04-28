@@ -35,8 +35,12 @@ plugins:
   - jekyll-seo-tag
 #  - jekyll-sitemap
 #  - jemoji
+#  - jekyll-include-cache
+#  - jekyll-octicons
+#  - jekyll-remote-theme
 # already loaded
 #  - jekyll-coffeescript
+#  - jekyll-commonmark-ghpages
 #  - jekyll-default-layout
 #  - jekyll-gist
 #  - jekyll-github-metadata
@@ -52,7 +56,7 @@ gist:
   noscript:           false               # cannot changed
 
 # Conversion
-markdown:             kramdown            # cannot changed
+markdown:             kramdown            # can changed (CommonMarkGhPages)
 highlighter:          rouge               # cannot changed
 lsi:                  false               # cannot changed
 incremental:          false               # cannot changed
