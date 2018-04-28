@@ -3,7 +3,7 @@ title: NPM Befehle
 tags: [liste, npm]
 ---
 
-## Übersicht
+## Liste wichtiger Befehle
 
 -   `npm init`
 -   `npm install [-g]`
@@ -14,3 +14,7 @@ tags: [liste, npm]
 -   `npm outdated [-g]`
 -   `npm update [-g]`
 -   `npm doctor`
+
+## Berechtigungen einstellen
+
+[Anleitung](https://docs.npmjs.com/getting-started/fixing-npm-permissions#option-two-change-npms-default-directory)
