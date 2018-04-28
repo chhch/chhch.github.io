@@ -11,7 +11,7 @@ Arbeitet der Nutzer beispielsweise mit einem Windows-System, kann in dem virtuel
 
 Ausgeführt werden die _Images_ der Betriebssysteme durch _Container_. Die Konfiguration eines Images erfolgt mit der Hilfe einer Textdatei, die den Namen _Dockerfiles_ trägt. Images können als Grundlage für andere Images dienen.
 
-Für Jekyll existieren bereits zahlreiche Konfigurationen. Das offizielle Image befindet sich auf [Docker Hub](https://hub.docker.com/r/jekyll/jekyll/), das zugehörige _aktuelle_ Dockerfile kann auf [GitHub](https://github.com/jekyll/docker/blob/master/repos/jekyll/Dockerfile) eingesehen werden.
+Für Jekyll existieren bereits zahlreiche Konfigurationen. Das offizielle Image befindet sich auf [Docker Hub](https://hub.docker.com/r/jekyll/jekyll/), das zugehörige Dockerfile kann auf [GitHub](https://github.com/envygeeks/jekyll-docker/blob/01abc93de8271a512b47b5b058e653c153591b2c/repos/jekyll/Dockerfile) eingesehen werden.
 
 ### Container ausführen
 
