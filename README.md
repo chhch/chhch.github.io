@@ -1,6 +1,10 @@
 # chhch.github.io
 
+## Start Local Jekyll Server
 
+```shell
+sudo docker/start_jekyll.sh
+```
 
 ## Credits
 
