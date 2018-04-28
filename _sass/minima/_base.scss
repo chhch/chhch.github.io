@@ -31,7 +31,7 @@ body {
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
+p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit-small;
@@ -130,8 +130,10 @@ hr {
   border: none;
   text-align: center;
 
-  &:before {
-    content: "⚫ ⚫ ⚫";
+  &:after {
+    content: "***";
+    font: $font-weight #{$font-size*1.2}/#{$line-height-headline} $font-family-headline;
+    letter-spacing: $spacing-unit-small;
   }
 }
 
