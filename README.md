@@ -1,17 +1,6 @@
 # chhch.github.io
 
-## TODO
 
--   [x] Update `_config.yml` structure
--   [x] ~~Add docker-compose file~~
--   [x] Add Font Awesome for social icons
--   [x] Tidy up SCSS
--   [x] Use other fonts for posts and headlines
--   [x] Add link to github file history on each post
--   [x] Use shell script to start docker container instead docker compose
--   [ ] ~~Maybe add Disqus comment box~~
--   [ ] ~~Maybe add pagination~~
--   [x] Update Tag page
 
 ## Credits
 
