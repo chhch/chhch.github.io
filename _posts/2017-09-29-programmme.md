@@ -3,7 +3,7 @@ title: Systemkonfiguration
 tags: [liste, elementary_os]
 ---
 
-## Programme installieren
+## Installierte Programme
 
 -   [Git](https://git-scm.com/download/linux)
     -   `git config --global user.name "<name>"`
@@ -24,16 +24,16 @@ tags: [liste, elementary_os]
     -   AdBlock
     -   dict-cc
     -   Hypothesis - Web & PDF Annotation
-    -   JetBrains IDE Support
     -   Mendeley Importer
 -   Firefox (AppCenter)
     -   AdBlock Plus
-    -   Brief
-    -   Cookie Whitelist, With Buttons
+    -   Cookie AutoDelete
     -   NoScript
-    -   RefControl
+    -   Privacy Badger
+    -   Toggle Referrer
 -   [Atom](https://launchpad.net/~webupd8team/+archive/ubuntu/atom?field.series_filter=xenial)
     -   atom-beautify
+    -   character-table
     -   file-icons
     -   intellij-idea-keymap
     -   language-latex
@@ -41,17 +41,18 @@ tags: [liste, elementary_os]
     -   markdown-table-editor
 -   [Idea Ultimate](https://launchpad.net/~jonas-groeger/+archive/ubuntu/jetbrains)
     -   .ignore
-    -   LiveEdit
+    -   Kotlin
     -   Markdown support
     -   Mongo Plugin
     -   NodeJs
-    -   `export IDEA_JDK="$JAVA_HOME"` in `/usr/bin/intellij-idea-ultimate` auskommentieren, und stattdessen JetBrains eigene JDK verwenden (`Switch IDE Boot JDK`)
 -   [Peek](https://code.launchpad.net/~peek-developers/+archive/ubuntu/stable)
 -   [Mendeley](https://www.mendeley.com/guides/download-mendeley-desktop/ubuntu/instructions) (DEB legt Repository an)
--   [Vocal](https://github.com/needle-and-thread/vocal) (AppCenter)
+-   [Vocal](https://github.com/needle-and-thread/vocal) (AppCenter) / [gPodder](https://launchpad.net/~thp/+archive/ubuntu/gpodder)
     -   <http://feeds.metaebene.me/cre/mp3>
     -   <http://forschergeist.de/feed/mp3>
     -   <http://www1.wdr.de/radio/podcasts/wdr5/dasphilosophischeradio100.podcast>
+    -   <http://www.deutschlandfunk.de/podcast-der-politik-podcast.3292.de.podcast.xml>
+    -   <http://www.deutschlandfunk.de/podcast-hintergrund.725.de.podcast.xml>
     -   <http://podcast.wdr.de/radio/hoerspiel.xml>
     -   <https://www.e-teaching.org/materialien/vodcast/podcast.xml>
     -   <http://www.br-online.de/podcast/kino-kino-shortcuts/cast.xml>
@@ -60,8 +61,8 @@ tags: [liste, elementary_os]
 -   [Krita](https://launchpad.net/~kritalime/+archive/ubuntu/ppa)
 -   Schriftart: [Fira Code](https://github.com/tonsky/FiraCode/wiki/Linux-instructions)
 
-## Programme entfernen
+## Entfernte Programme
 
--  Scratch
--  Simple Scan
--  GNOME Web / Epiphany
+-   Scratch
+-   Simple Scan
+-   GNOME Web / Epiphany
