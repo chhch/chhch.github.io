@@ -93,13 +93,11 @@ body > main {
 }
 
 .tag {
-  border-radius: .25em;
-  border: 1px solid $color-accent-3;
   color: $color-accent-3;
   display: inline;
   font-size: $font-size-small;
   line-height: 1;
-  padding: .2em .6em .3em;
+  padding: .2em 0 .3em .6em;
   text-align: center;
   vertical-align: baseline;
   white-space: nowrap;
@@ -117,7 +115,7 @@ body > main {
     content: "\f02b";
     color: $color-accent-3;
     font-family: FontAwesome;
-    padding-right: .5em;
+    padding-right: .3em;
   }
 }
 
@@ -183,11 +181,11 @@ body > main {
     margin-bottom: $spacing-unit;
 
     .post-history:before {
-      content: "| Änderungen: ";
+      content: "| Änderungen:";
     }
 
     .post-tags:before {
-      content: "| Tags: ";
+      content: "| Tags:";
     }
   }
 
