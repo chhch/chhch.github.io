@@ -23,9 +23,11 @@ tags: [liste, web]
 -   [Thoughtworks Technologie Radar](https://www.thoughtworks.com/de/radar)
 -   [State of JavaScript](http://stateofjs.com/)
 -   [Vergleich und Übersicht von Frameworks](http://stackshare.io/)
+-   [Frameworks List](http://hotframeworks.com/)
 -   [Algorithmen Visualisierung](http://visualgo.net/)
 -   [Algorithmen Visualisierung (programmierbar)](http://algo-visualizer.jasonpark.me/)
 -   [Entwurfsmuster in Java implementiert](http://java-design-patterns.com/)
+-   [Sammlung von Konferenzaufzeichnungen](https://talkery.io/)
 
 ## Schriftarten für Code
 
@@ -36,6 +38,7 @@ tags: [liste, web]
 ## Design
 
 -   [Vector Icons](http://www.flaticon.com/)
+-   [Icons for everything](https://thenounproject.com/)
 -   [Free High Quality Images](https://pixabay.com/)
 -   [Adobe Color CC](https://color.adobe.com/de/)
 
@@ -56,3 +59,10 @@ tags: [liste, web]
 -   [Computer Science Field Guide](http://csfieldguide.org.nz/)
 -   [Curated list of awesome lists](https://awesome.re)
 -   [The definitive list of lists (of lists) curated on GitHub](https://github.com/jnv/lists)
+
+## Sonstiges
+
+- [flowKey](http://www.flowkey.com/)
+- [playground sessions](https://www.playgroundsessions.com/)
+- [Pianu](https://pianu.com/)
+- [Skoove](https://www.skoove.com/)
