@@ -1,5 +1,5 @@
 ---
-title: Gradle Composite Builds
+title: Gradle Composite-Builds
 tags: [gradle, multiple-projects]
 ---
 
@@ -55,11 +55,11 @@ Der Vorteil dieser Variante liegt in der stärkeren Modularität. Dies vereinfac
 
 Auf der anderen Seite ist das Beheben eines Fehlers in einem anderen Modul aufwendiger, da dafür zunächst das Modul geladen werden muss. Außerdem müssen Änderungen die mehrere Module betreffen, für jedes Modul manuell durchgeführt werden. Da es sich um eine binäre Abhängigkeit zwischen den Modulen handelt, ist es nicht möglich Funktionen der Entwicklungsumgebung zu nutzen, um diesen Prozess zu automatisieren.
 
-## Composite Builds
+## Composite-Builds
 
 Die letzte Variante kombiniert die Vorteile von Mono-Repos und Multi-Repos. _Composite-Builds_ ermöglichen es auf ein anderes Modul, sowohl über das Repository zuzugreifen, als auch das Modul innerhalb des Projekts einzubinden. Je nach Aufgabe kann flexibel zwischen beiden Varianten gewechselt werden.
 
-    Composite Builds
+    Composite-Builds
     ================
 
     +-----------------+    +----------------+
