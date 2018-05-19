@@ -38,7 +38,8 @@ tags: [liste, elementary_os]
     -   language-latex
     -   latexer
     -   markdown-table-editor
-    -   [Spell Check](https://github.com/atom/spell-check/issues/161#issuecomment-336653098)
+    -   [spell- check](https://github.com/atom/spell-check/issues/161#issuecomment-336653098)
+    -   typewriter-scroll
 -   [Idea Ultimate](https://launchpad.net/~jonas-groeger/+archive/ubuntu/jetbrains)
     -   .ignore
     -   Kotlin
