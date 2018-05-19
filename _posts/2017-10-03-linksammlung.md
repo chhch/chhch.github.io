@@ -17,6 +17,7 @@ tags: [liste, web]
 -   [LaTeX-Diff-Werkzeug](https://3142.nl/latex-diff/) ([Hinweis](https://emeryblogger.com/2011/01/14/diff-your-latex-files-with-latexdiff/))
 -   [LaTeX-, HTML-, Text-, Markdown-Tabellengenerator](http://www.tablesgenerator.com/)
 -   [ISBN-BibTex-Generator](http://www.ottobib.com/)
+-   [Digitale Schreibtools](http://fd.phwa.ch/?page_id=892)
 
 ## Entwicklung
 
@@ -52,6 +53,7 @@ tags: [liste, web]
 -   [Großschreibung englischer Titel](http://www.titlecapitalization.com/)
 -   [Geschickt Gendern](http://geschicktgendern.de/)
 -   [Unicode Tabelle](http://unicode-table.com/)
+-   [playground sessions](https://www.playgroundsessions.com/)
 
 ## Listen
 
@@ -59,10 +61,3 @@ tags: [liste, web]
 -   [Computer Science Field Guide](http://csfieldguide.org.nz/)
 -   [Curated list of awesome lists](https://awesome.re)
 -   [The definitive list of lists (of lists) curated on GitHub](https://github.com/jnv/lists)
-
-## Sonstiges
-
-- [flowKey](http://www.flowkey.com/)
-- [playground sessions](https://www.playgroundsessions.com/)
-- [Pianu](https://pianu.com/)
-- [Skoove](https://www.skoove.com/)
