@@ -74,7 +74,7 @@ Die letzte Variante kombiniert die Vorteile von Mono-Repos und Multi-Repos. _Com
     |  +----------+   |    |                |
     |  | Module 2 |   |    |                |
     |  +----------+   |    |                |
-    +--------+--------+    +----------------+
+    +-----------------+    +----------------+
 
 Für die Realisierung in Gradle, ist für jedes Projekt eine Datei mit dem Namen `settings.gradle` anzulegen. Für das _Projekt 1_ hat die Datei folgenden Inhalt.
 
