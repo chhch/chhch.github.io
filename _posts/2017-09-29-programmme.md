@@ -11,7 +11,6 @@ tags: [liste, elementary_os]
 -   [Oracle JDK](https://launchpad.net/~webupd8team/+archive/ubuntu/java)
 -   [nodejs (npm)](https://github.com/nodesource/distributions)
 -   [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
--   [MongoDB](https://docs.mongodb.com/master/tutorial/install-mongodb-on-ubuntu/?_ga=2.2653744.1825266134.1510583058-1462711944.1510583058)
 -   [KeePassXC](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc)
 -   Datensicherung: Déjà Dup (AppCenter)
     -   Sichern: `~`, `/etc`
@@ -39,6 +38,7 @@ tags: [liste, elementary_os]
     -   language-latex
     -   latexer
     -   markdown-table-editor
+    -   [Spell Check](https://github.com/atom/spell-check/issues/161#issuecomment-336653098)
 -   [Idea Ultimate](https://launchpad.net/~jonas-groeger/+archive/ubuntu/jetbrains)
     -   .ignore
     -   Kotlin
