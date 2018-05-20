@@ -1,13 +1,13 @@
 ---
-title: GitHub-Pages mit Jekyll erstellen
-tags: [bundler, jekyll]
+title: Grundlagen von Jekyll für GitHub-Pages
+tags: [jekyll]
 ---
 
-_Jeykll_ (v. 3.5.2) ermöglicht es aus Markdown-Dateien eine statische Webseite zu generieren. Neben den Markdown-Dateien, die den Inhalt der Seite enthalten, können weitere Konfigurations- und Layout-Dateien angegeben werden. Die Jekyll bei der Generierung ebenfalls berücksichtigt.
+[Jeykll](https://jekyllrb.com/ "Version 3.5.2") ermöglicht es aus Markdown-Dateien eine statische Webseite zu generieren. Neben den Markdown-Dateien, die den Inhalt der Seite enthalten, können weitere Konfigurations- und Layout-Dateien angegeben werden. Die Jekyll bei der Generierung ebenfalls berücksichtigt.
 
-## Bundler
+## Arbeiten mit Bundler
 
-Für die Verwaltung der Erweiterungen von Jekyll kann _Bundler_ (v. 1.15) verwendet werden. Bundler hilft nachzuvollziehen, auf welche Gems einschließlich ihrer Version das Projekt aufbaut. Damit nur die Gems verwendet werden, die auch GitHub-Pages zulässt, reicht es aus die [Github-Pages-Gem](https://github.com/github/pages-gem) in die Datei `Gemfile` einzufügen.
+Für die Verwaltung der Erweiterungen von Jekyll kann [Bundler](https://bundler.io/ "Version 1.15") verwendet werden. Bundler hilft nachzuvollziehen, auf welche Ruby Bibliotheken einschließlich ihrer Version das Projekt aufbaut. Die Bibliotheken werden in Ruby _Gems_ genannt. Damit nur die Gems verwendet werden, die auch GitHub-Pages zulässt, reicht es aus die [Github-Pages-Gem](https://github.com/github/pages-gem "Version 157") in die Datei `Gemfile` einzufügen.
 
 Mit dem Befehl `bundle install` werden die von GitHub-Pages untersützen Gems installiert. Anschließend erstellt Bundler die Datei `Gemfile.lock` in der die Versionen der installierten Gems und deren Abhängigkeiten enthalten sind. Das `Gemfile` zusammen mit dem `Gemfile.lock` liefern ein Abbild der verwendeten Gems und deren Versionen.
 
@@ -100,12 +100,12 @@ Jekyll enthält verschiedene Themes. Wird ein Theme von Jekyll verwendet, müsse
 
 ## Template erstellen mit Liquid
 
+Jekyll nutzt [Liquid](https://shopify.github.io/liquid/), um Templates zu verarbeiten. Liquid-Code kann in die drei Kategorien _Objects_, _Tags_ und _Filter_ eingeteilt werden.
+
 {% raw %}
-Jekyll nutzt Liquid, um Templates zu verarbeiten. Liquid-Code kann in die drei Kategorien _Objects_, _Tags_ und _Filter_ eingeteilt werden.
+Objects sagen Liquid, wo Inhalt angezeigt werden soll. Objects und Variablen stehen innerhalb von zwei geschweiften Klammern, zum Beispiel wird mit `{{ page.title }}` der Titel der Seite ausgegeben.
 
-Objects sagen Liquid, wo Inhalt angezeigt werden soll. Objects und Variablen stehen innerhalb von zwei geschweiften Klammern, zum Beispiel `{{ page.title }}`.
-
-Filter ändern die Ausgabe eines Liquid-Objects. Filter werden durch ein `|` eingeleitet, die Anwendung von zwei Filtern, sieht wie folgt aus `{{ "adam!" | capitalize | prepend: "Hello " }}`.
+Filter können die Ausgabe eines Liquid-Objects ändern. Filter werden durch ein `|` eingeleitet, die Anwendung von zwei Filtern, sieht wie folgt aus `{{ "welt!" | capitalize | prepend: "Hallo " }}` und führt zu der Ausgabe von „Hallo Welt!“.
 
 Mit der Hilfe von Tags können logische Ausdrücke und Kontrollstrukturen für Templats erstellt werden. Tags befinden sich innerhalb von zwei geschweiften Klammern und dem Prozentzeichen, zum Beispiel `{% if user %} Hello {{ user.name }}! {% endif %}`.
 
@@ -113,7 +113,7 @@ Es werden drei Varianten von Tags unterschieden: Kontrollstrukturen, Iterationen
 
 Die Verwendung von Liquid kann zu unerwünschten Leerstellen führen, um dies zu verhindern, kann der Liquid-Code mit einem `-` ergänzt werden, zum Beispiel `{%- if user -%}`.
 
-## Jekyll spezifische Tags
+## Jekyll spezifische Liquid-Tags
 
 Alle Standard Tags und Filter von Liquid werden unterstützt. Zusätzlich fügt Jekyll noch eigene Tags und Filter hinzu.
 
@@ -123,23 +123,23 @@ Wird der Tag `link` verwendet, um auf Post, Pages, Collections oder Dateien zu v
 
 ## Plugins
 
-_GitHub-Pages-Gem_ (v. 157) erlaubt es nur Plugins und Einstellungen zu verwenden, die auch von GitHub-Pages unterstützt werden. In der `_config.yml` sind Plugins explizit zu aktivieren, falls diese nicht standardmäßig aktiviert sind. Falls eine Github-Project-Page erstellt werden soll, sind einige zusätzliche Dinge bei der Verlinkung zu beachten.
+[Github-Pages-Gem](https://github.com/github/pages-gem "Version 157") erlaubt es nur Plugins und Einstellungen zu verwenden, die auch von GitHub-Pages unterstützt werden. In der `_config.yml` sind Plugins explizit zu aktivieren, falls diese nicht standardmäßig aktiviert sind. Falls eine Github-Project-Page erstellt werden soll, sind einige zusätzliche Dinge bei der Verlinkung zu beachten.
 
 Für das Erstellen eines _Atom (RSS) Feeds_, genügt es das Plugin `jekyll-feed` in die `_config.yml` einzutragen. Damit der Browser von dem Feed erfährt, kann `{% feed_meta %}` in den Head-Bereich der `default.html` hinzugefügt werden.
+{% endraw %}
 
 Das Plugin `jekyll-default-layout` wird von GitHub-Pages-Gem aktiviert. Es setzt automatisch ein Layout, falls in der YAML-Kopfzeile einer Markdown-Datei kein Layout angegeben wurde. Daher kann die Angabe zum Beispiele bei einem Posts wegelassen werden.
 
 ## Variablen
 
-Jekyll setzt einige Variablen, die via Liquid abrufbar sind. Die Variablen können in drei Bereichen unterteilt werden: Global-, Site- und Page-Variablen. Zu den Global-Variable gehören unter anderem `page`, `layout` und `content`. Zu den Site- und Page-Variablen zählen alle Variablen die mit `page.*` bzw. `site.*` abgefragt werden können.
+Jekyll setzt einige Variablen, die via Liquid abrufbar sind. Die Variablen können in drei Bereichen unterteilt werden: Global-, Site- und Page-Variablen. Zu den Global-Variable gehören unter anderem `page`, `layout` und `content`. Zu den Site- und Page-Variablen zählen alle Variablen die mit `page.*` bzw. `site.*` abgefragt werden können, wobei sich die Variablen unter `page.*` auf die aktuell angezeigte Seite beziehen und unter `site.*` Informationen über die komplette Website enthalten sind.
 
 ## Collection
 
-Neben den _Collections_ Posts und Pages können in Jekyll auch eigene Collections erstellt werden. Es ist möglich, einen Namen und den Pfad zu einer Collection anzugeben. Für Posts wäre der Pfad beispielsweise `_post`. Weitere Einstellungen sind möglich, wie zum Beispiel das Festlegen eines Standard Layouts für die Dateien in der Collection bzw. in dem Ordner.
+Neben den beiden _Collections_ „Posts“ und „Pages“ können in Jekyll auch eigene Collections erstellt werden. Es ist möglich, einen Namen und den Pfad zu einer Collection anzugeben. Für Posts wäre der Pfad beispielsweise `_post`. Weitere Einstellungen sind möglich, wie zum Beispiel das Festlegen eines Standard Layouts für die Dateien in der Collection bzw. in dem Ordner.
 
 ## Permalink
 
 _Permalinks_ bestimmen den Aufbau der URLs (ohne Domainname und Pfad) für Posts, Pages und Collections. Jekyll erlaubt es für den Permalink ein Template anzugeben, dieser ist für Posts standardmäßig `/:categories/:year/:month/:day/:title.html`.
 
 Jekyll bringt außerdem einige Templatestyles mit. Der Style `pretty` sorgt für folgende URL `/:categories/:year/:month/:day/:title/`. Beim Bauen der Seite erstellt Jekyll für jeden Post, jede Page und jede Collection einen Ordner mit dem Namen der Datei und fügt die Datei selbst als index.html in den Ordner, sodass die Datei anschließend ohne `.html` in URL aufgerufen werden kann.
-{% endraw %}

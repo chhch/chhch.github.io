@@ -5,15 +5,13 @@ tags: [docker, jekyll]
 
 ## Docker
 
-Docker (v. 17.06.1-ce) ermöglicht es Anwendungen auszuführen. Die Besonderheit von Docker ist, dass die Anwendung innerhalb eines eigens auf sie zugeschnittenen _virtuellen Systems_ läuft. Das virtuelle System ist unabhängig vom System des Nutzers und kann beliebig bzw. den Anforderungen entsprechend konfiguriert werden.
-
-Arbeitet der Nutzer beispielsweise mit einem Windows-System, kann in dem virtuellen System trotzdem Ubuntu als Betriebssystem zum Einsatz kommen. Auf dem virtuellen Ubuntu-System können dann die Softwarepakete installiert werden, die zum Beispiele eine Anwendung wie Jekyll benötigt.
+[Docker](https://www.docker.com/ "Version 17.06.1-ce") ermöglicht es Anwendungen auszuführen. Die Besonderheit von Docker ist, dass die Anwendung innerhalb eines eigens auf sie zugeschnittenen _virtuellen Systems_ läuft. Das virtuelle System kann beliebig bzw. den Anforderungen entsprechend konfiguriert werden. Auf dem virtuellen System können zum Beispiel nur die Softwarepakete installiert werden, die eine Anwendung wie [Jekyll](https://jekyllrb.com/ "Version 3.5.2") benötigt.
 
 Ausgeführt werden die _Images_ der Betriebssysteme durch _Container_. Die Konfiguration eines Images erfolgt mit der Hilfe einer Textdatei, die den Namen _Dockerfiles_ trägt. Images können als Grundlage für andere Images dienen.
 
-Für Jekyll existieren bereits zahlreiche Konfigurationen. Das offizielle Image befindet sich auf [Docker Hub](https://hub.docker.com/r/jekyll/jekyll/), das zugehörige Dockerfile kann auf [GitHub](https://github.com/envygeeks/jekyll-docker/blob/01abc93de8271a512b47b5b058e653c153591b2c/repos/jekyll/Dockerfile) eingesehen werden.
+Für Jekyll existieren bereits zahlreiche Konfigurationen. Das offizielle Image befindet sich auf [Docker Hub](https://hub.docker.com/r/jekyll/jekyll/ "Version 3.5.2"), das zugehörige Dockerfile kann auf [GitHub](https://github.com/envygeeks/jekyll-docker/blob/01abc93de8271a512b47b5b058e653c153591b2c/repos/jekyll/Dockerfile "Version 3.5.2") eingesehen werden.
 
-### Container ausführen
+## Jekyll-Container starten
 
 Mit dem nachfolgenden Befehl ist es möglich, eine Seite mit Jekyll zu bauen und in einem lokalen Server auszuliefern.
 
@@ -26,7 +24,7 @@ docker run --rm \
   jekyll serve
 ```
 
-Ein Container kann alternativ auch mit Docker-Compose (v. 1.15.0) gestartet werden. Statt die Parameter der Anweisung `docker run` anzufügen, werden sie in die Datei `docker-compose.yml` geschrieben. Gestartet wird der Container mit dem Befehl `docker-compose up`. Nachfolgend ist die `docker-compose.yml` für das Bauen einer Jekyll-Seite beschrieben.
+Ein Container kann alternativ auch mit [Docker-Compose](https://docs.docker.com/compose/ "Version 1.15.0") gestartet werden. Statt die Parameter der Anweisung `docker run` anzufügen, werden sie in die Datei `docker-compose.yml` geschrieben. Gestartet wird der Container mit dem Befehl `docker-compose up`. Nachfolgend ist die `docker-compose.yml` für das Bauen einer Jekyll-Seite beschrieben.
 
 ```yaml
 version: "3.3"
@@ -45,9 +43,9 @@ services:
 
 Docker-Compose wird vor allem dafür verwendet, um Anwendungen mit mehreren Containern zu starten.
 
-### Aufbau des Dockerfiles
+## Aufbau des Dockerfiles
 
-Unten ist ein Ausschnitt aus dem Jekyll-Dockerfile abgebildet. Nachfolgend werden die einzelnen Befehle kurz beschrieben.
+Unten ist ein Ausschnitt aus dem [Jekyll-Dockerfile](https://github.com/envygeeks/jekyll-docker/blob/01abc93de8271a512b47b5b058e653c153591b2c/repos/jekyll/Dockerfile "Version 3.5.2") abgebildet. Nachfolgend werden die einzelnen Befehle kurz beschrieben.
 
 ```dockerfile
 FROM ruby:alpine3.6
@@ -62,7 +60,7 @@ EXPOSE 35729
 EXPOSE 4000
 ```
 
-#### Der Befehl FROM
+### Grundlage festlegen
 
 Der Befehl `FROM` im Dockerfile gibt an, welches Image als Grundlage verwendet wird. Beispielsweise nutzt das Jekyll-Image das ruby-Image. Das ruby-Image bezieht sich wiederum auf das alpine-Image. Das alpine-Image verweist auf das scratch-Image. Die Reihenfolge ist unten abgebildet. In einem Dockerfile ist immer nur der direkte Vorgänger ersichtlich.
 
@@ -89,9 +87,9 @@ Der Befehl `FROM` im Dockerfile gibt an, welches Image als Grundlage verwendet w
     |    Host-System    |
     +-------------------+
 
-Das scratch-Image ist ein leeres Image, welches von Docker bereitgestellt wird. Das alpine-Image verwendet [Alpine Linux](https://www.alpinelinux.org/), eine Linux-Distribution, die wenig Speicherplatz benötigt. Das ruby-Image sorgt dafür, dass Ruby korrekt installiert wird. Zuletzt wird im Jekyll-Image (v. 3.5.2) installiert. Die Images bauen aufeinander auf. Jedes Images muss nur einmal runtergeladen werden, und kann anschließend von anderen Images wiederverwendet werden.
+Das scratch-Image ist ein leeres Image, welches von Docker bereitgestellt wird. Das alpine-Image verwendet [Alpine Linux](https://www.alpinelinux.org/), eine Linux-Distribution, die wenig Speicherplatz benötigt. Das ruby-Image sorgt dafür, dass Ruby korrekt installiert wird. Zuletzt wird im Jekyll-Image installiert. Die Images bauen aufeinander auf. Jedes Images muss nur einmal runtergeladen werden, und kann anschließend von anderen Images wiederverwendet werden.
 
-#### Die Befehle RUN, CMD und ENTRYPOINT
+### Befehle ausführen
 
 Für das Ausführen von Anweisungen innerhalb des Containers können im Dockerfile die Befehle `RUN`, `CMD` und `ENTRYPOINT` verwendet werden. Der zuletzt genannte Befehl `ENTRYPOINT`, ist in dem Jekyll-Dockerfile nicht enthalten, wird aber der Vollständigkeit halber erwähnt.
 
@@ -133,11 +131,11 @@ Wobei Docker unterschiedlich verfährt. Die erste Variante wird in der Shell aus
 -   Shell-From: `/bin/sh -c command param1 param2`
 -   Exec-Form: `executable param1 param2`
 
-#### Der Befehl WORKDIR
+### Arbeitsverzeichnis wechseln
 
 Der Befehl `WORKDIR` wird verwendet, um das Verzeichnis zu wechseln. Es können sowohl relative als auch absolute Pfade angegeben werden.
 
-#### Der Befehl VOLUME
+### Daten laden und speichern
 
 Der Befehl `VOLUME` wird verwendet, um den Einhängepunkt von Datenbankdaten, Konfigurationen oder Dateien des Containers festzulegen. Das Host-Verzeichnis wird nicht im Dockerfile festgelegt, sondern erst bestimmt, wenn der Container gestartet wird.
 
@@ -164,6 +162,6 @@ Für das Einhängen eines Laufwerks können dem Befehl `docker run` sowohl das `
 -   `destination`/`dst`/`target`: Pfad zu der Datei oder dem Ordner, der im Container eingehängt wird.
 -   `readonly`: Falls Bind-Mount, kann im Container auf die eingehängten Daten nur lesend zugegriffen werden.
 
-#### Der Befehl EXPOSE
+### Ports öffnen
 
-Mit `EXPOSE` werden die Ports angegeben, auf die ein Container zur Laufzeit lauscht. Er ist optional und dient eher als Dokumentation, welche Ports genutzt werden. Ports werden durch den Befehl weder gemappt noch geöffnet. Der Host kann auf diese Ports erst zugreifen, wenn er den entsprechenden Port beim Ausführen des Containers mit dem Flag `-P` bzw. `--publish` gesetzt hat.
+Mit `EXPOSE` werden die Ports angegeben, auf die ein Container zur Laufzeit lauscht. Ports werden durch den Befehl nicht für die Host geöffnet. Der Host kann auf diese Ports erst zugreifen, wenn er den entsprechenden Port beim Ausführen des Containers mit dem Flag `-P` bzw. `--publish` gesetzt hat.
