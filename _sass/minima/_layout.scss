@@ -222,4 +222,8 @@ body > main {
       @include relative-font-size(2.125);
     }
   }
+
+  p, li {
+    line-height: $line-height-post-text;
+  }
 }
