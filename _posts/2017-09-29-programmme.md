@@ -14,8 +14,7 @@ tags: [liste, elementary_os]
 -   [KeePassXC](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc)
 -   Datensicherung: Déjà Dup (AppCenter)
     -   Sichern: `~`, `/etc`
-    -   Ignorieren: `Papierkorb`, `~/Downloads`, `~/DiskStation`, `~/gPodder/Downloads`, `~/.cache`
-    -   Einstellungen Speicherort: `Windows-Freigabe`, `WORKGROUP`
+    -   Ignorieren: `Papierkorb`, `~/Downloads`, `~/gPodder/Downloads`, `~/.cache`
 -   Dconf Editor (AppCenter)
     -   Tastenkürzel: `org/gnome/desktop/wm/keybindings`
 -   Deutsche Rechtschreibprüfung: hunspell-de-de (Ubuntu)
@@ -54,13 +53,11 @@ tags: [liste, elementary_os]
     -   <http://www1.wdr.de/radio/podcasts/wdr5/dasphilosophischeradio100.podcast>
     -   <http://www.deutschlandfunk.de/podcast-der-politik-podcast.3292.de.podcast.xml>
     -   <http://www.deutschlandfunk.de/podcast-hintergrund.725.de.podcast.xml>
-    -   <http://podcast.wdr.de/radio/hoerspiel.xml>
     -   <https://www.e-teaching.org/materialien/vodcast/podcast.xml>
     -   <http://www.br-online.de/podcast/kino-kino-shortcuts/cast.xml>
     -   <http://www.srf.ch/feed/podcast/hd/b7705a5d-4b68-4cb1-9404-03932cd8d569.xml>
     -   <http://www.tagesschau.de/export/video-podcast/webl/tagesschau/index.xml>
 -   [Krita](https://launchpad.net/~kritalime/+archive/ubuntu/ppa)
--   Schriftart: [Fira Code](https://github.com/tonsky/FiraCode/wiki/Linux-instructions)
 
 ## Entfernte Programme
 
