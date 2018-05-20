@@ -5,7 +5,7 @@ tags: [git, multiple-projects]
 
 ## Submodules und Subtrees
 
-Mit Submodules und Subtrees sind in Git zwei Möglichkeiten enthalten, ein Repository in einem anderem Repository einzubinden. Ein _eingebundenes Repository_ steht im Folgenden für ein Repository, das zu einem anderen Repository hinzugefügt wurde.
+Mit Submodules und Subtrees sind in [Git](https://git-scm.com/ "Version 2.17.0") zwei Möglichkeiten enthalten, ein Repository in einem anderem Repository einzubinden. Ein _eingebundenes Repository_ steht im Folgenden für ein Repository, das zu einem anderen Repository hinzugefügt wurde.
 
     Git Submodule
     =============

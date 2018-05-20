@@ -5,7 +5,7 @@ tags: [gradle, multiple-projects]
 
 ## Multiple Projects Builds
 
-Umfangreiche Software Projekte bestehen meist aus verschiedenen Modulen. Zwischen den Modulen existieren Abhängigkeiten, sodass die Entwicklung nur an einem einzigen Modul oft nicht möglich ist. Allerdings kann es je nach Projekt sehr aufwendig sein, alle Module zu laden. Verschiedenen Varianten ein Projekt zu strukturieren werden nachfolgend vorgestellt.
+Umfangreiche Software Projekte bestehen meist aus verschiedenen Modulen. Zwischen den Modulen existieren Abhängigkeiten, sodass die Entwicklung nur an einem einzigen Modul oft nicht möglich ist. Allerdings kann es je nach Projekt sehr aufwendig sein, alle Module zu laden. [Gradle](https://gradle.org/ "Version 4.7") unterstützt verschiedene Varianten ein Projekt zu strukturieren, die nachfolgenden vorstellt werden.
 
 ## Mono-Repo
 
