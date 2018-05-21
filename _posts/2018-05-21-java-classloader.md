@@ -28,7 +28,7 @@ Der Standard Classloader erlaubt es nicht, eine geladene Klasse erneut zu laden.
 
 Instanzen von Klassen, die den selben Namen haben und sich im selben Package befinden, sind nicht vom selben Typ, wenn sie von unterschiedlichen Classloader geladen wurden.
 
-Mit den URLClasLoader können Klassen einer URL geladen werden. Dabei kann es sich zum Beispiel, um den Pfad eines `.jar`-Archivs handeln.
+Mit den `URLClassLoader` können Klassen einer URL geladen werden. Dabei kann es sich zum Beispiel, um den Pfad eines JAR-Archivs handeln.
 
 * * *
 
