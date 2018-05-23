@@ -34,7 +34,7 @@ plugins:
 #  - jekyll-redirect-from
   - jekyll-seo-tag
 #  - jekyll-sitemap
-#  - jemoji
+  - jemoji
 #  - jekyll-include-cache
 #  - jekyll-octicons
 #  - jekyll-remote-theme
