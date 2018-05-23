@@ -3,112 +3,134 @@ title: Linksammlung E-Learning
 tags: [liste, e-learning]
 ---
 
-## Liste
+## Seiten über E-Learning
 
--   <http://c4lpt.co.uk/top100tools/>
+-   <https://e-teaching.org> :star:
+-   <http://l3t.tugraz.at/HTML>
+-   <http://edutechwiki.unige.ch/>
+-   <https://learning-theories.com/> ?
+-   <https://learninglab.uni-due.de/>
 
-## Lernen
+## Texte
+
+-   <https://khanacademy.org/research/reports/cantor>
+-   <http://blog.ncase.me/explorable-explanations/>
+-   <http://worrydream.com/ExplorableExplanations> :star:
+-   <http://worrydream.com/KillMath/> :star:
+-   <http://blog.ncase.me/explorable-explanations>
+-   <http://viewer.zmags.com/publication/f1aef9f9#/f1aef9f9/4> ?
+-   <https://edulabs.de/blog/H5P-im-Unterricht-Erfahrungen-Ideen>
+-   <http://www.maartenlambrechts.com/2015/03/04/the-rise-of-explorable-explanations.html>
+-   <https://blog.lucify.com/building-interactive-visualizations-with-react-d3-and-typescript-206c7172b0d2>
+
+## Wissenschaftliche Arbeiten
+
+-   <https://e-teaching.org/materialien/e-journals>
+-   <https://e-teaching.org/materialien/zeitschriften>
+-   <http://edutechwiki.unige.ch/en/E-learning_journal_list>
+-   <http://docs.lib.purdue.edu/ijpbl/>
+-   <http://medienpaed.com/index>
+-   <https://www.iwm-tuebingen.de/www/de/forschung/publikationen/index.html>
+-   <http://vpri.org/>
+-   <https://learninglab.uni-due.de/biblio>
+-   <https://www.die-bonn.de/id/11813/about/html/>
+-   <https://www.die-bonn.de/id/11878/about/html/>
+
+## Beispiele Lernen
+
+### Interaktives Lernen
 
 -   <https://mathigon.org/about#research> :star:
--   <https://de.khanacademy.org> :star:
+-   <https://khanacademy.org> :star:
 -   <http://explorabl.es/> :star:
+-   <https://www.matific.com>
+-   <https://serlo.org/>
 -   <https://sagesaufdeutsch.de/>
--   <https://de.serlo.org/>
--   <https://oncampus.de/master/demokurse.html>
--   <https://oncampus.de/ueber-uns/demokurse.html>
--   <https://quizlet.com/de>
--   <https://www.openlearnware.de/>
+-   <http://insightlt.com/site/index.php>
+-   <https://hoou.de/>
+-   <https://javafit.de/>
+-   <http://rocs.hu-berlin.de/explorables/> :star:
 
 ### MOOCs
 
--   <https://imoox.at/mooc/>
--   <https://mooin.oncampus.de/>
--   <https://www.coursera.org/> (kostenpflichtig)
--   <https://www.udemy.com/> (kostenpflichtig)
--   <http://insightlt.com/site/index.php> (kostenpflichtig)
+-   <https://www.coursera.org/>
+-   <https://www.edx.org/>
+-   <https://www.udemy.com/>
+-   <https://udacity.com/>
+-   <https://iversity.org/>
+-   <https://open.hpi.de/>
+-   <https://imoox.at/>
+-   <https://oncampus.de/>
+-   <https://www.openlearnware.de/>
+-   <https://segu-geschichte.de>
+-   <https://www.lynda.com/>
 
-### Sammlungen
+### Sammlungen von Lerninhalten
 
+-   <http://merlot.org/merlot/materials.htm>
 -   <http://vischool.de/>
--   <https://memucho.de>
 -   <https://learningapps.org/>
--   <https://merlot.org/merlot/materials.htm>
+-   <https://programmieraffe.github.io/oer-hoernchen/>
+-   <https://www.edukatico.org>
+-   <https://memucho.de>
+-   <http://jointly.info/#start>
+-   <http://www.bildungsserver.de/elixier/>
+-   <https://www.edutags.de/>
 
-## Lehre
+## Beispiele Lehre
+
+### Interaktive Inhalte erstellen
 
 -   <https://h5p.org/> :star:
--   <https://articulate.com/> (kostenpflichtig) :star:
--   <https://tutory.de/> :star:
--   <https://ispringsolutions.com/ispring-suite/features> :star:
--   <http://xerte.org.uk/index.php?lang=en>
--   <https://nearpod.com/>
--   <https://explaineverything.com/>
--   <http://www.adobe.com/de/products/captivate.html> (kostenpflichtig)
--   <https://www.instructure.com/>
--   <https://softchalk.com/>
--   <http://www.lectora.com/>
--   <https://www.easygenerator.com/> (kostenpflichtig)
--   <https://www.schoology.com/>
--   <http://www.udutu.com/>
--   <https://www.thinkific.com/>
+-   <https://www.hihaho.com/>
+-   <https://apester.com/>
 
-### Plattform
-
--   <http://edu-sharing.com>
--   <http://edulo.com/>
--   <https://www.oercommons.org/>
-
-### Interaktives Video
-
--   <https://www.hihaho.com/> (kostenpflichtig)
-
-### Quiz
+### Live Quiz erstellen
 
 -   <https://www.mentimeter.com/>
 -   <https://www.socrative.com/>
 -   <https://kahoot.com>
 -   <https://www.polleverywhere.com/>
 -   <https://www.quizizz.com/>
+-   <https://quizlet.com/de> :star:
 
-## Wissenschaftliche Arbeiten
+### Kurse erstellen
 
--   <https://civilrightsdefenders.org/news/innovation-challenge-2017/>
--   <http://go-lab-project.eu/publications>
--   <http://ict-forge.eu/documents/publications/>
--   <http://docs.lib.purdue.edu/ijpbl/>
--   <http://medienpaed.com/index>
--   <https://www.iwm-tuebingen.de/www/de/forschung/publikationen/index.html>
--   <https://www.iwm-tuebingen.de/www/de/forschung/projekte/projekt.html?name=InfoWissensvisualisierung>
--   <https://www.iwm-tuebingen.de/www/de/forschung/projekte/projekt.html?name=MetakognitiveEinfluesse>
--   <http://vpri.org/html/writings.php>
--   <https://learninglab.uni-due.de/studium/pr%C3%BCfungsarbeiten/liste-der-abschlussarbeiten>
+-   <http://www.adobe.com/de/products/captivate.html>
+-   <https://explaineverything.com/>
+-   <https://articulate.com/> :star:
+-   <https://ispringsolutions.com/> :star:
+-   <https://nearpod.com/>
+-   <http://www.udutu.com/>
+-   <https://www.instructure.com/>
+-   <https://softchalk.com/>
+-   <https://www.thinkific.com/>
+-   <https://typeform.com/>
 
-## Texte
+### Plattformen
 
--   <https://e-teaching.org>
--   <https://e-teaching.org/materialien/e-journals>
--   <https://e-teaching.org/materialien/zeitschriften>
--   <https://e-teaching.org/didaktik>
--   <https://e-teaching.org/didaktik/gestaltung/interaktiv>
--   <http://l3t.tugraz.at/HTML>
--   <https://khanacademy.org/research/reports/cantor>
--   <http://blog.ncase.me/explorable-explanations/>
--   <http://jointly.info/>
--   <http://edutechwiki.unige.ch/en/E-learning_journal_list>
--   <http://edutechwiki.unige.ch/en/Educational_technology>
--   <http://edutechwiki.unige.ch/en/Learning_theory>
--   <https://learning-theories.com/>
--   <https://de.wikipedia.org/wiki/Cognitive_Load_Theory>
--   <https://de.wikipedia.org/wiki/Integriertes_Lernen#Methoden-.2C_Medien-_und_Theorienmix_des_Blended_Learning>
--   <http://viewer.zmags.com/publication/f1aef9f9#/f1aef9f9/4>
--   <http://worrydream.com/ExplorableExplanations>
--   <http://worrydream.com/KillMath/>
--   <http://blog.ncase.me/explorable-explanations>
+-   <https://www.trivantis.com/>
+-   <http://edu-sharing.com>
+-   <http://edulo.com/>
+-   <https://www.oercommons.org/>
+-   <https://www.easygenerator.com/>
+-   <https://www.schoology.com/>
+
+## Listen
+
+-   <http://c4lpt.co.uk/top100tools/>
+-   <https://tutorful.co.uk/blog/the-82-hottest-edtech-tools-of-2017-according-to-education-experts>
+-   <https://tutorful.co.uk/blog/60-best-educational-apps>
+-   <http://oss-watch.ac.uk/resources/ossoptionseducation>
 
 ## Sonstiges
 
--   <https://en.wikipedia.org/wiki/Sharable_Content_Object_Reference_Model>
--   <https://typeform.com/>
+-   <https://oerworldmap.org> :star:
+-   <https://dynamicland.org/> :star:
 -   <https://empatico.org/>
--   <https://programmieraffe.github.io/oer-hoernchen/>
--   <https://www.edukatico.org>
+-   <https://tutory.de/>
+-   <https://oercheck.de/>
+-   <https://hpi.de/open-campus/hpi-initiativen/schul-cloud.html>
+-   <https://open-educational-resources.de/>
+-   <https://www.facebook.com/groups/OERde/>
+-   <http://ict-forge.eu/>
