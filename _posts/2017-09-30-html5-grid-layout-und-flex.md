@@ -13,7 +13,7 @@ Das Element `article` soll für Inhalte verwendet werden, die für sich _allein_
 
 ## Grid-Layout
 
-Das CSS _Grid-Layout_ erlaubt es, das Layout einer Seite mit einem zweidimensionalen Gitter zu beschreiben. Die Größe der einzelnen Zellen kann entweder fix und flexibel festgelegt werden.
+Das CSS _Grid-Layout_ erlaubt es, das Layout einer Seite mit einem zweidimensionalen Gitter zu beschreiben. Die Größe der einzelnen Zellen kann entweder fix oder flexibel festgelegt werden.
 
 ```css
 body {
@@ -41,7 +41,7 @@ Der oben stehende CSS-Code erzeugt das folgende Layout:
 
 Die Einheit `fr` steht für Fraction. Der freie Platz wird entsprechend zum Verhältnis der gesamten Fraction aufgeteilt. In dem gezeigten Fall bekommen sowohl die linke als auch die rechte Spalte die Hälfte der noch zur Verfügung stehenden Fläche, da die gesamte Fraction den Wert 2 hat. Bei der Definition der Reihen wurde nur eine Fraction angegeben. Also bekommt die mittlere Reihe die gesamte übrige freie Fläche.
 
-Außerdem wurde das Grid mit in verschiedene Bereiche eingeteilt. In den oberen drei Spalten soll der Header der Seite dargestellt werden. Der Hauptbereich befindet sich in der Mitte. Die Spalten links und rechts von der Mitte bleiben leer. Dies wird durch mindestens ein Punkt kenntlich gemacht. Am unteren Rand befindet sich schließlich die Fußzeile.
+Außerdem wurde das Grid mit in die verschiedene Bereiche `hd`, `mn` und `ft` eingeteilt. In den oberen drei Spalten soll der Kopfzeile (Header) der Seite dargestellt werden. Der Hauptbereich (Main) befindet sich in der Mitte. Die Spalten links und rechts von der Mitte bleiben leer. Dies wird durch mindestens ein Punkt kenntlich gemacht. Am unteren Rand befindet sich schließlich die Fußzeile (Footer).
 
 HTML-Elemente können einen der Bereiche zugeordnet werden. Wobei der Name für die Bereiche frei wählbar ist, jedoch müssen die in `grid-template-areas` definierten Namen mit denen in `grid-area` angegebenen übereinstimmen.
 
@@ -85,6 +85,8 @@ Außerdem ist es möglich, Element **innerhalb des Grid-Elements** auszurichten.
       innerhalb seines   innerhalb ihres    innerhalb des
          Bereichs)          Bereichs)       umschließenden
                                              Containers)
+
+Je nach Eigenschaft können unter anderen die Werte `auto`, `flex-start`, `flex-end`, `center`, `baseline`, `space-between`, `stretch` oder `space-around` zugewiesen werden.
 
 ## Flexbox
 
