@@ -43,6 +43,7 @@ tags: [liste, elementary_os]
     -   Markdown support
     -   Mongo Plugin
     -   NodeJs
+    -   [Main Menu toggler](https://plugins.jetbrains.com/plugin/7297-main-menu-toggler)
 -   [Peek](https://code.launchpad.net/~peek-developers/+archive/ubuntu/stable)
 -   [Mendeley](https://www.mendeley.com/guides/download-mendeley-desktop/ubuntu/instructions) (DEB legt Repository an)
 -   Krita ([AppImage](https://launchpad.net/~kritalime/+archive/ubuntu/ppa), [Desktop-File]({{ site.baseurl }}{% link assets/misc/krita.desktop %}))
