@@ -1,15 +1,15 @@
 - href: "https://github.com/"
   name: "chhch"
-  icon: "fa-github-square"
+  icon: "fab fa-github-square"
 
 - href: "https://twitter.com/"
   name: "ch_hh_ch"
-  icon: "fa-twitter-square"
+  icon: "fab fa-twitter-square"
 
 - href: "mailto:"
   name: "chhch+github@protonmail.com"
-  icon: "fa-envelope-square"
+  icon: "fas fa-envelope-square"
 
 - href: "!BASE_URL!"
   name: "feed.xml"
-  icon: "fa-rss-square"
+  icon: "fas fa-rss-square"

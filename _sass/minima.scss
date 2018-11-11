@@ -1,14 +1,16 @@
 @charset "utf-8";
 
 // Define defaults for each variable.
-$font-family:           'Raleway', sans-serif !default;
+$font-family:           'Open Sans', sans-serif !default;
 $font-family-headline:  'Amatic SC', cursive !default;
 $font-size:             16px !default;
 $font-size-small:       $font-size * 0.875 !default;
-$font-weight:           400 !default;
+$font-weight-title:     700 !default;
+$font-weight-headline:  400 !default;
+$font-weight:           300 !default;
 $line-height:           1.5 !default;
 $line-height-headline:  1.2 !default;
-$line-height-post-text: 2 !default;
+$line-height-post-text: 1.8 !default;
 
 $spacing-unit:          30px !default;
 $spacing-unit-big:      $spacing-unit * 1.865;
@@ -50,9 +52,6 @@ $on-laptop:             800px !default;
 
 // Import partials.
 @import
-  "font-awesome-4.7.0/font-awesome",
-  "google-fonts/amatic-sc",
-  "google-fonts/raleway",
   "minima/base",
   "minima/layout",
   "minima/syntax-highlighting"

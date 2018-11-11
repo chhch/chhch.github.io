@@ -28,7 +28,7 @@ body > header {
 
   &,
   &:visited {
-    color: $color-text;
+    color: $color-link;
   }
 }
 
@@ -112,9 +112,10 @@ body > main {
 
   &:before {
     display: inline-block;
-    content: "\f02b";
     color: $color-accent-3;
-    font-family: FontAwesome;
+    content: "\f02b";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
     padding-right: .3em;
   }
 }
@@ -126,7 +127,7 @@ body > main {
 
 .anchorjs-link {
   color: $color-accent-1;
-  margin-left: -0.6em !important;
+  margin-left: -0.5em !important;
 
   &:visited {
     color: $color-accent-1;
@@ -199,8 +200,7 @@ body > main {
       @include relative-font-size(3.25);
     }
 
-    font-weight: 700;
-    letter-spacing: -1px;
+    font-weight: $font-weight-title;
     line-height: 1;
   }
 
@@ -229,5 +229,10 @@ body > main {
 
   p, li {
     line-height: $line-height-post-text;
+  }
+
+  .anchorjs-link {
+    margin-top: -0.15em;
+    font-size: larger;
   }
 }

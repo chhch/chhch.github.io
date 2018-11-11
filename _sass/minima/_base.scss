@@ -82,7 +82,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-  font: $font-weight #{$font-size}/#{$line-height-headline} $font-family-headline;
+  font: $font-weight-headline #{$font-size}/#{$line-height-headline} $font-family-headline;
 }
 
 
@@ -119,6 +119,15 @@ blockquote {
   > :last-child {
     margin-bottom: 0;
   }
+}
+
+
+
+/**
+ * Text
+ */
+strong {
+  font-weight: 600;
 }
 
 

@@ -7,6 +7,8 @@
     {% seo %}
     <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}{% link favicon.ico %}">
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}{% link assets/css/style.scss %}">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans:300,300i,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     {% feed_meta %}
 </head>
 <body>
@@ -23,16 +25,16 @@
       {% for entry in site.data.social-media %}
       <li>
           <a href="{{ entry.href | replace: '!BASE_URL!', site.baseurl }}{{ entry.name }}">
-              <i class="fa {{ entry.icon }} fa-lg"></i>
+              <i class="{{ entry.icon }} fa-lg"></i>
           </a>
       </li>
       {% endfor %}
     </ul>
 </footer>
-<script src="{{ site.baseurl }}{% link assets/javascript/anchor-js/anchor.min.js %}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
 <script>
   anchors.options = {
-    icon: '#',
+    icon: 'ם',
     placement: 'left',
     visible: 'always'
   };
