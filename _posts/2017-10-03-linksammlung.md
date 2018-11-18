@@ -1,6 +1,6 @@
 ---
-title: Linksammlung
-tags: [liste, web]
+title: Linksammlung Entwicklung
+tags: [liste]
 ---
 
 ## Softwaredokumentation
