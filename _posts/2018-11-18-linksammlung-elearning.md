@@ -93,6 +93,12 @@ tags: [liste, e-learning]
 -   <https://tutorful.co.uk/blog/the-82-hottest-edtech-tools-of-2017-according-to-education-experts>
 -   <https://tutorful.co.uk/blog/60-best-educational-apps>
 -   <http://oss-watch.ac.uk/resources/ossoptionseducation>
+-   <https://webbyawards.com/winners/2018/websites/general/education/>
+-   <https://winners.lovieawards.eu/#!y=2013&wc=66>
+-   <https://reimagine-education.com/educational-app-award/>
+-   <https://homeschoolbase.com/100-best-educational-websites-2017/>
+-   <http://bettawards.com/finalists/>
+-   <http://academicschoice.com/search_results.php?zoom_query=Websites&TYPE=Website>
 
 ## Seiten über E-Learning
 
