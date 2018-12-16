@@ -39,11 +39,13 @@ body > header {
  */
 body > footer {
   border-top: 2px solid $color-accent-2;
-  padding-top: $spacing-unit-small;
+  padding-top: $spacing-unit-smaller;
 }
 
 .social-media-list {
   text-align: center;
+
+  margin-bottom: 0;
 
   li {
     display: inline;
