@@ -32,6 +32,7 @@ tags: [liste]
 -   [Sammlung von Konferenzaufzeichnungen](https://talkery.io/)
 -   [Cheat Sheet](https://cheat.sh/)
 -   [Website validieren](https://webhint.io/scanner/998c33fe-2a05-45ee-99ed-ad6d42606886#Performance)
+-   [JSON Generator](https://next.json-generator.com/)
 
 ## Schriftarten für Code
 
@@ -48,7 +49,8 @@ tags: [liste]
 
 ## Sonstiges
 
--   [Wegwerf-E-Mail-Adressen](http://discard.email/)
+-   [Einweg E-Mail-Adressen](https://www.mohmal.com/de)
+-   [Einweg SMS-Nummern](https://smsreceivefree.com/)
 -   [Have I been pwned?](https://haveibeenpwned.com/)
 -   [Passwortstärke testen](https://github.com/dropbox/zxcvbn/issues/210)
 -   [Softwarelizenzen](https://tldrlegal.com/)
@@ -58,6 +60,7 @@ tags: [liste]
 -   [Unicode Tabelle](http://unicode-table.com/)
 -   [playground sessions](https://www.playgroundsessions.com/)
 -   [Podcast aus Vimeo/Youtube-Channels erstellen](https://podsync.net/)
+-   [Magic Wormhole](https://github.com/warner/magic-wormhole)
 
 ## Listen
 
