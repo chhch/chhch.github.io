@@ -28,15 +28,15 @@ tags: [liste, elementary_os]
     -   Privacy Badger
     -   Toggle Referrer
 -   [Latex](https://launchpad.net/~jonathonf/+archive/ubuntu/texlive) ([Anleitung](https://wiki.ubuntuusers.de/TeX_Live/))
--   [Atom](https://launchpad.net/~webupd8team/+archive/ubuntu/atom?field.series_filter=xenial)
-    -   atom-beautify
-    -   character-table
-    -   file-icons
-    -   intellij-idea-keymap
-    -   atom-latex
-    -   markdown-table-editor
-    -   [spell-check](https://github.com/atom/spell-check/issues/161#issuecomment-336653098)
-    -   typewriter-scroll
+-   [Visual Studio Code](https://code.visualstudio.com/Download)
+    -   Atom One Light Theme
+    -   Code Spell Checker
+    -   German - Code Spell Checker
+    -   LaTeX Workshop
+    -   One Dark Pro
+    -   Unibeautify - Universal Formatter
+    -   Text Tables
+    -   vscode-icons
 -   [Idea Ultimate](https://launchpad.net/~jonas-groeger/+archive/ubuntu/jetbrains)
     -   .ignore
     -   Kotlin
