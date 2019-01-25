@@ -30,6 +30,8 @@ tags: [liste, e-learning]
 -   <https://quizizz.com/>
 -   <https://quizlet.com/>
 -   <https://explaineverything.com/>
+-   <https://pigeonholelive.com/>
+-   <https://www.mentimeter.com>
 
 ## Interaktive Kurse erstellen
 
@@ -107,6 +109,7 @@ tags: [liste, e-learning]
 -   <http://edutechwiki.unige.ch/>
 -   <https://learning-theories.com/>
 -   <https://learninglab.uni-due.de/>
+-   <https://ep.elan-ev.de/wiki/Hauptseite>
 
 ## Texte
 
