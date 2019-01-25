@@ -28,7 +28,7 @@ tags: [liste, elementary_os]
     -   Privacy Badger
     -   Toggle Referrer
 -   [Latex](https://launchpad.net/~jonathonf/+archive/ubuntu/texlive) ([Anleitung](https://wiki.ubuntuusers.de/TeX_Live/))
--   [Visual Studio Code](https://code.visualstudio.com/Download)
+-   [Visual Studio Code](https://code.visualstudio.com/Download) ([Einstellungen]({{ site.baseurl }}{% link assets/misc/settings.json %}))
     -   Atom One Light Theme
     -   Code Spell Checker
     -   German - Code Spell Checker

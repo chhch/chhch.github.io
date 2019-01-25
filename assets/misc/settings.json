@@ -1,0 +1,56 @@
+{
+    "markdown.previewFrontMatter": "hide",
+    "editor.minimap.enabled": false,
+    "zenMode.fullScreen": false,
+    "window.menuBarVisibility": "toggle",
+    "[markdown]": {
+        "editor.wordWrap": "bounded",
+        "editor.wrappingIndent": "indent",
+        "editor.quickSuggestions": true
+    },
+    "[latex]": {
+        "editor.formatOnPaste": false,
+        "editor.formatOnSave": false,
+        "editor.suggestSelection": "recentlyUsedByPrefix",
+        "editor.wordWrap": "bounded",
+        "editor.wrappingIndent": "indent",
+        "editor.quickSuggestions": true
+
+    },
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "git.autofetch": true,
+    "workbench.colorTheme": "One Dark Pro",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Menlo, Consolas, DejaVu Sans Mono, monospace",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.statusBar.feedback.visible": false,
+    "text-tables.showStatus": false,
+    "vsicons.presets.hideExplorerArrows": true,
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdflatex*2",
+            "tools": [
+              "pdflatex",
+              "pdflatex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.clean.enabled": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.showTabs": false,
+    "workbench.activityBar.visible": false,
+    "cSpell.language": "de-DE,en",
+    "window.titleBarStyle": "native"
+}
