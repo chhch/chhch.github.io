@@ -55,6 +55,6 @@ tags: [liste, elementary_os]
 
 ## Skripte
 
--  [Synaptics Touchpad]({{ site.baseurl }}{% link assets/misc/synaptics-touchpad.sh %})
--  [Wacom Tablet]({{ site.baseurl }}{% link assets/misc/wacom-tablet.sh %})
--  [Bugfixes]({{ site.baseurl }}{% link assets/misc/fixes.sh %})
+-   [Synaptics Touchpad]({{ site.baseurl }}{% link assets/misc/synaptics-touchpad.sh %})
+-   [Wacom Tablet]({{ site.baseurl }}{% link assets/misc/wacom-tablet.sh %})
+-   [Bugfixes]({{ site.baseurl }}{% link assets/misc/fixes.sh %})
