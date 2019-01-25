@@ -9,7 +9,7 @@ tags: [liste, elementary_os]
     -   `git config --global user.name "chhch"`
     -   `git config --global user.email "chhch@users.noreply.github.com"`
 -   [Oracle JDK](https://launchpad.net/~webupd8team/+archive/ubuntu/java)
--   [nodejs (npm)](https://github.com/nodesource/distributions)
+-   [nodejs (npm)](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
 -   [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 -   [KeePassXC](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc)
 -   Datensicherung: Déjà Dup (AppCenter)
