@@ -6,8 +6,8 @@ tags: [liste, elementary_os]
 ## Installierte Programme
 
 -   [Git](https://git-scm.com/download/linux)
-    -   `git config --global user.name "<name>"`
-    -   `git config --global user.email "<mail>"`
+    -   `git config --global user.name "chhch"`
+    -   `git config --global user.email "chhch@users.noreply.github.com"`
 -   [Oracle JDK](https://launchpad.net/~webupd8team/+archive/ubuntu/java)
 -   [nodejs (npm)](https://github.com/nodesource/distributions)
 -   [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
