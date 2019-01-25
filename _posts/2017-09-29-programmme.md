@@ -37,7 +37,7 @@ tags: [liste, elementary_os]
     -   Unibeautify - Universal Formatter
     -   Text Tables
     -   vscode-icons
--   [Idea Ultimate](https://launchpad.net/~jonas-groeger/+archive/ubuntu/jetbrains)
+-   [Idea Ultimate](https://github.com/JonasGroeger/jetbrains-ppa)
     -   .ignore
     -   Kotlin
     -   Markdown support
