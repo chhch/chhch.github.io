@@ -7,6 +7,7 @@ tags: [liste]
 
 -   [Softwarearchitektur-Template](http://arc42.org/)
 -   [HTML-Präsentations-Framework](https://github.com/hakimel/reveal.js)
+-   [Dokumentation Site Generator](https://docsify.js.org)
 
 ## Web-Apps für die Dokumentation
 
@@ -38,6 +39,7 @@ tags: [liste]
 
 -   [Übersicht verschiedener Schriftarten](http://app.programmingfonts.org/#input)
 -   [Fira Code](https://github.com/tonsky/FiraCode)
+-   [Victor Mono](https://rubjo.github.io/victor-mono/)
 -   [Hack](http://sourcefoundry.org/hack/)
 
 ## Design
@@ -46,6 +48,12 @@ tags: [liste]
 -   [Icons for everything](https://thenounproject.com/)
 -   [Free High Quality Images](https://pixabay.com/)
 -   [Adobe Color CC](https://color.adobe.com/de/)
+-   [UX Best Practices](https://uxmovement.com/)
+-   [Illustrationen Menschen](https://undraw.co/illustrations)
+-   [Illustrationen Menschen (Vorlagen)](https://www.humaaans.com/)
+-   [Schriftgrößen testen](https://type-scale.com/)
+-   [Online Bildbearbeitung](https://www.photopea.com/)
+-   [CSS Frameworks](https://github.com/troxler/awesome-css-frameworks/blob/master/readme.md)
 
 ## Sonstiges
 
@@ -61,6 +69,8 @@ tags: [liste]
 -   [playground sessions](https://www.playgroundsessions.com/)
 -   [Podcast aus Vimeo/Youtube-Channels erstellen](https://podsync.net/)
 -   [Magic Wormhole](https://github.com/warner/magic-wormhole)
+-   [Bildgröße reduzieren](https://squoosh.app/)
+-   [Bildhintergrund entfernen](https://www.remove.bg/)
 
 ## Listen
 
@@ -69,6 +79,8 @@ tags: [liste]
 -   [Curated list of awesome lists](https://awesome.re)
 -   [The definitive list of lists (of lists) curated on GitHub](https://github.com/jnv/lists)
 -   [Podcasts]({{ site.baseurl }}{% link assets/misc/antennapod-feeds.html %})
+-   [Alternative zu herkömmlichen Anwendungen I](https://ethical.net/)
+-   [Alternative zu herkömmlichen Anwendungen II](https://switching.social/)
 
 ## Präsentationen
 
