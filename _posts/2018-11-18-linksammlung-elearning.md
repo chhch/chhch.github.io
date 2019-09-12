@@ -18,6 +18,7 @@ tags: [liste, e-learning]
 -   <https://learningapps.org/>
 -   <https://classpad.net/us>
 -   <https://www.desmos.com/>
+-   <https://minutelabs.io/>
 
 ## Interaktive Präsentationen
 
