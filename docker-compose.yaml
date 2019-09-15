@@ -1,0 +1,14 @@
+version: "3.7"
+services: 
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --drafts --livereload
+    volumes:
+      - type: bind
+        source: .
+        target: /srv/jekyll
+    ports:
+      - published: 4000
+        target: 4000
+      - published: 35729
+        target: 35729
