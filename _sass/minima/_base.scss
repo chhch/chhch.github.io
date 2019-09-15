@@ -15,7 +15,6 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $font-weight #{$font-size}/#{$line-height} $font-family;
-  text-align: justify;
   color: $color-text;
   background-color: $color-background;
   -webkit-font-feature-settings: "kern" 1;
