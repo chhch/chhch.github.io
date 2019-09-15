@@ -230,5 +230,9 @@ body > main {
   p, li {
     line-height: $line-height-post-text;
     text-align: justify;
-  }
+
+    a {
+      text-decoration: underline dotted;
+    }
+  }  
 }
