@@ -1,6 +1,6 @@
 ---
-title: Intellij IDEA Shortcuts
-tags: [liste, intellij-idea]
+title: Intellij IDEA Tastenkürzel
+tags: [tastenkürzel, intellij-idea]
 ---
 
 ## Navigation
