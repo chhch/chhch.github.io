@@ -49,8 +49,6 @@ plugins:
 #  - jekyll-readme-index
 #  - jekyll-relative-links
 #  - jekyll-titles-from-headings
-# only for testing
-#  - jekyll-livereload
 
 gist:
   noscript:           false               # cannot changed
