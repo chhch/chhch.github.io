@@ -128,15 +128,13 @@ body > main {
 }
 
 .anchorjs-link {
-  color: $color-accent-1;
-  margin-left: -0.5em !important;
-
-  &:visited {
-    color: $color-accent-1;
-  }
+  background: url('/assets/images/box.svg') no-repeat;
+  height: .5em;
+  margin-left: -.75em !important;
+  margin-top: .4em;
 
   &:hover {
-    color: $color-text;
+    filter: brightness(0)
   }
 }
 
@@ -232,10 +230,5 @@ body > main {
   p, li {
     line-height: $line-height-post-text;
     text-align: justify;
-  }
-
-  .anchorjs-link {
-    margin-top: -0.15em;
-    font-size: larger;
   }
 }
