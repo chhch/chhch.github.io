@@ -3,7 +3,7 @@
 ## Start Local Jekyll Server
 
 ```shell
-docker/start_jekyll.sh
+docker-compose up
 ```
 
 ## Credits
