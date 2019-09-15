@@ -117,7 +117,7 @@ RUN apt-get update && apt-get install -y \
   nginx
 ```
 
-Der Befehl `CMD` ermöglicht es ein Standard Befehl anzugeben, der ausgeführt wird, sobald der Container läuft. In Verbindung mit dem Befehl `ENTRYPOINT` kann zusätzlich ein Standard Parameter angegeben werden. Wird beim Starten des Containers ein Befehl bzw. Parameter angegeben, wird der Befehl `CMD` aus dem Dockerfile überschrieben.
+Der Befehl `CMD` ermöglicht es ein Standard Befehl anzugeben, der ausgeführt wird, sobald der Container läuft. In Verbindung mit dem Befehl `ENTRYPOINT` kann zusätzlich ein Standard Parameter angegeben werden. Wird beim Starten des Containers ein Befehl bzw. Parameter angegeben, wird der Befehl `CMD` aus dem Dockerfile überschrieben. In der Docker Dokumentation ist die Verbindung von `CMD` und `ENTRYPOINT` in einer [Tabelle](https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact) dargestellt.
 
 Während `CMD` einen eher optionalen Charakter hat, dessen Wert bei bedarf überschrieben werden kann, soll `ENTRYPOINT` immer dann verwendet werden, wenn ein bestimmtes Programm mit ggf. festen Parametern ausgeführt wird.
 
