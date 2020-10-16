@@ -35,6 +35,7 @@ tags: [liste]
 - [Website validieren](https://webhint.io/scanner/998c33fe-2a05-45ee-99ed-ad6d42606886#Performance)
 - [JSON Generator](https://next.json-generator.com/)
 - [Free for developers](https://free-for.dev/#/)
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 
 ## Schriftarten für Code
 
@@ -72,6 +73,7 @@ tags: [liste]
 - [Geschickt Gendern](http://geschicktgendern.de/)
 - [Unicode Tabelle](http://unicode-table.com/)
 - [playground sessions](https://www.playgroundsessions.com/)
+- [HTTP Status Diagramm](https://raw.githubusercontent.com/for-GET/http-decision-diagram/master/httpdd.png)
 
 ## Listen
 
@@ -82,6 +84,7 @@ tags: [liste]
 - [Podcasts]({{ site.baseurl }}{% link assets/misc/antennapod-feeds.html %})
 - [Alternative zu herkömmlichen Anwendungen I](https://ethical.net/)
 - [Alternative zu herkömmlichen Anwendungen II](https://switching.social/)
+- [Gesetzte](https://github.com/dwmkerr/hacker-laws)
 
 ## Präsentationen
 
