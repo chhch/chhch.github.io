@@ -11,6 +11,7 @@ tags: [liste, elementary_os]
 - [nodejs (npm) / nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
 - [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 - docker-compose (Skript)
+- [direnv](https://github.com/direnv/direnv) (Ubuntu)
 - [KeePassXC](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc) (Flatpak)
 - Datensicherung: Déjà Dup (Flatpak)
   - Sichern: `~`
