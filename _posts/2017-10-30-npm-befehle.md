@@ -14,6 +14,7 @@ tags: [liste, npm]
 - `npm list <packages>` (Zeigt Abhängigkeiten)
 - `npm outdated`
 - `npm update`
+- `npm install <package>@latest` (Updates major version)
 - `npm doctor`
 
 ## Node Version Manager
