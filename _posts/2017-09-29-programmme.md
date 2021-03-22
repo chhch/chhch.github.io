@@ -12,6 +12,8 @@ tags: [liste, elementary_os]
 - [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
 - docker-compose (Skript)
 - [direnv](https://github.com/direnv/direnv) (Ubuntu)
+- htop (Ubuntu)
+- ncdu (Ubuntu)
 - [KeePassXC](https://launchpad.net/~phoerious/+archive/ubuntu/keepassxc) (Flatpak)
 - Datensicherung: Déjà Dup (Flatpak)
   - Sichern: `~`
