@@ -5,6 +5,7 @@ tags: [liste]
 
 ## Web-Apps für die Dokumentation
 
+- [Whiteboard]](https://excalidraw.com/)
 - [Diagramm Editor](https://www.draw.io/)
 - [Sequenzdiagramm Editor](https://sequencediagram.org/)
 - [ASCII Editor](http://asciiflow.com/)
@@ -33,17 +34,12 @@ tags: [liste]
 - [Free for developers](https://free-for.dev/#/)
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 
-## Schriftarten für Code
-
-- [Übersicht verschiedener Schriftarten](http://app.programmingfonts.org/#input)
-- [Fira Code](https://github.com/tonsky/FiraCode)
-- [Hack](http://sourcefoundry.org/hack/)
-- [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
-
 ## Design
 
 - [Vector Icons](http://www.flaticon.com/)
 - [Icons for everything](https://thenounproject.com/)
+- [Tabler Icons](https://tablericons.com/)
+- [Phosphor Icons](https://phosphoricons.com/)
 - [Free High Quality Images](https://pixabay.com/)
 - [Adobe Color CC](https://color.adobe.com/de/)
 - [UX Best Practices](https://uxmovement.com/)
@@ -54,9 +50,6 @@ tags: [liste]
 - [Bildgröße reduzieren](https://squoosh.app/)
 - [Bildhintergrund entfernen](https://www.remove.bg/)
 - [Laws of UX](https://lawsofux.com/)
-
-https://tablericons.com/
-https://phosphoricons.com/
 
 ## Sonstiges
 
@@ -70,5 +63,6 @@ https://phosphoricons.com/
 - [Unicode Tabelle](http://unicode-table.com/)
 - [HTTP Status Diagramm](https://raw.githubusercontent.com/for-GET/http-decision-diagram/master/httpdd.png)
 - [Gesetzte](https://github.com/dwmkerr/hacker-laws)
-- Falsehoods about [Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), [Adressen](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/), [Time](https://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time),  [Geography](https://wiesmann.codiferes.net/wordpress/?p=15187&lang=en), [Text](https://wiesmann.codiferes.net/wordpress/?p=30296) and [Shopping](https://wiesmann.codiferes.net/wordpress/?p=22201)
+- Falsehoods about [Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), [Adressen](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/), [Time](https://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time), [Geography](https://wiesmann.codiferes.net/wordpress/?p=15187&lang=en), [Text](https://wiesmann.codiferes.net/wordpress/?p=30296), [Phone Numbers](https://github.com/google/libphonenumber/blob/master/FALSEHOODS.md) and [Shopping](https://wiesmann.codiferes.net/wordpress/?p=22201)
 - [wtfjs](https://github.com/denysdovhan/wtfjs)
+- [professional-programming](https://github.com/charlax/professional-programming#must-read-articles)
