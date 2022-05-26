@@ -5,12 +5,14 @@ tags: [liste]
 
 ## Web-Apps für die Dokumentation
 
-- [Whiteboard]](https://excalidraw.com/)
+- [Whiteboard](https://excalidraw.com/)
 - [Diagramm Editor](https://www.draw.io/)
 - [Sequenzdiagramm Editor](https://sequencediagram.org/)
 - [ASCII Editor](http://asciiflow.com/)
 - [Markdown Editor](https://stackedit.io/)
-- [Vector Editor](https://icons8.com/vector-creator)
+- [Illustrationen](https://icons8.com/vector-creator)
+- [Vector Editor](https://vectr.com/)
+- [Vector Editor II](https://boxy-svg.com/)
 - [Bildbearbeitung](https://www.photopea.com/)
 - [HTML-Präsentations-Framework](https://github.com/hakimel/reveal.js)
 - [Dokumentation Site Generator](https://docsify.js.org)
@@ -18,8 +20,6 @@ tags: [liste]
 
 ## Entwicklung
 
-- [State of JavaScript](http://stateofjs.com/)
-- [State of CSS](https://stateofcss.com/)
 - [Frameworks List](http://hotframeworks.com/)
 - [Thoughtworks Technologie Radar](https://www.thoughtworks.com/de/radar)
 - [Vergleich von npm Packages](https://npmcompare.com/)
@@ -33,6 +33,32 @@ tags: [liste]
 - [JSON Generator](https://next.json-generator.com/)
 - [Free for developers](https://free-for.dev/#/)
 - [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
+- [DOM Events](https://domevents.dev/)
+- [Überprüfen von HTTP Request](https://webhook.site/)
+- [JavaScript Patterns](https://www.patterns.dev/)
+- [Tao of React](https://alexkondov.com/tao-of-react/)
+- [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
+- [Muster für Large-Scale Systems](https://github.com/binhnguyennus/awesome-scalability#architecture)
+
+## News
+
+- [Hacker News](http://besthackernews.herokuapp.com/#)
+- [JavaScript Weekly](https://javascriptweekly.com/)
+- [programming](https://www.reddit.com/r/programming/top/?t=month)
+- [JavaScript](https://www.reddit.com/r/javascript/top/?t=month)
+- [React](https://www.reddit.com/r/reactjs/top/?t=month)
+- [node](https://www.reddit.com/r/node/top/?t=month)
+- [Best of JS](https://bestofjs.org/rankings/monthly)
+- [ui.dev Videos](https://www.youtube.com/c/uidotdev/videos)
+- [web.dev Blog](https://web.dev/blog/)
+- [Developer Chrome Blog](https://developer.chrome.com/blog/)
+- [Kotlin Blog](https://blog.jetbrains.com/kotlin/)
+- [Fleet Blog](https://blog.jetbrains.com/fleet/)
+- [Deno Blog](https://deno.com/blog)
+- [React Blog](https://reactjs.org/blog/all.html/)
+- [Elementary Blog](https://blog.elementary.io/)
+- [State of JavaScript](http://stateofjs.com/)
+- [State of CSS](https://stateofcss.com/)
 
 ## Design
 
@@ -50,6 +76,7 @@ tags: [liste]
 - [Bildgröße reduzieren](https://squoosh.app/)
 - [Bildhintergrund entfernen](https://www.remove.bg/)
 - [Laws of UX](https://lawsofux.com/)
+- [Font Pairing](https://fontjoy.com/)
 
 ## Sonstiges
 
@@ -66,3 +93,8 @@ tags: [liste]
 - Falsehoods about [Names](https://www.kalzumeus.com/2010/06/17/falsehoods-programmers-believe-about-names/), [Adressen](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/), [Time](https://infiniteundo.com/post/25326999628/falsehoods-programmers-believe-about-time), [Geography](https://wiesmann.codiferes.net/wordpress/?p=15187&lang=en), [Text](https://wiesmann.codiferes.net/wordpress/?p=30296), [Phone Numbers](https://github.com/google/libphonenumber/blob/master/FALSEHOODS.md) and [Shopping](https://wiesmann.codiferes.net/wordpress/?p=22201)
 - [wtfjs](https://github.com/denysdovhan/wtfjs)
 - [professional-programming](https://github.com/charlax/professional-programming#must-read-articles)
+- [Google Play Advanced Search](https://play.gqqnbig.me/)
+- [Shape Up](https://basecamp.com/shapeup)
+- [Ähnliche Papers finden](https://app.litmaps.co/)
+- [Ähnliche Papers finden II](https://www.connectedpapers.com/)
+
