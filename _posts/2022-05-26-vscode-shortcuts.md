@@ -3,12 +3,6 @@ title: VSCode Shortcuts
 tags: [liste, vscode]
 ---
 
-<!-- https://github.com/kasecato/vscode-intellij-idea-keybindings -->
-
-<!-- https://github.com/isudox/vscode-jetbrains-keybindings/blob/master/package.json -->
-
-![code basics hero](https://code.visualstudio.com/assets/docs/getstarted/userinterface/hero.png)
-
 ## Window
 
 | Tastenkombination                                                               | Beschreibung                   |
@@ -29,7 +23,7 @@ tags: [liste, vscode]
 | <kbd>Alt</kbd> + <kbd>↓</kbd>/<kbd>↑</kbd>                           | Focus previous/next Terminal      |
 | <kbd>Ctrl</kbd> + <kbd>/</kbd>                                       | Split Terminal Pane               |
 | <kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>                           | Focus previous/next Terminal Pane |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>↓</kbd>/<kbd>↑</kbd>       | Scroll Terminal up/down           |
+| <kbd>Ctrl</kbd> + <kbd>↓</kbd>/<kbd>↑</kbd>                          | Scroll Terminal up/down           |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>PgUp</kbd>/<kbd>PgDn</kbd> | Scroll Terminal page up/down      |
 | <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>=</kbd>                     | Toggle maximize Terminal          |
 
@@ -39,9 +33,6 @@ tags: [liste, vscode]
 | -------------------------------------------------------------------- | --------------------------------------------- |
 | <kbd>Ctrl</kbd> + <kbd>/</kbd>                                       | Split Editor                                  |
 | <kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd>                           | Focus left/right Editor Group                 |
-| <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>PgUp</kbd>/<kbd>PgDn</kbd>  | Move Editor to the next/previous Editor Group |
-| <kbd>Ctrl</kbd> + <kbd>PgUp</kbd>/<kbd>PgDn</kbd>                    | Navigate up/down in Editor Group              |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>PgUp</kbd>/<kbd>PgDn</kbd> | Move Editor up/down in Editor Group           |
 
 ## Side Bar
 
@@ -53,7 +44,6 @@ tags: [liste, vscode]
 
 | Tastenkombination                                            | Beschreibung                                                                                     |
 | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
-| <kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd>            | Breadcrumbs; navigate with <kbd>Ctrl</kbd> + <kbd>↓</kbd>/<kbd>↑</kbd>/<kbd>←</kbd>/<kbd>→</kbd> |
 | <kbd>Crtl</kbd> + <kbd>E</kbd>                               | Switch between opened files in recent used order                                                 |
 | <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>←</kbd>/<kbd>→</kbd> | Go forward/backward opened editors                                                               |
 | <kbd>Crtl</kbd> + <kbd>Tab</kbd>                             | Switch between open editors in recent used order                                                 |
@@ -61,21 +51,20 @@ tags: [liste, vscode]
 
 ## In File Navigation
 
-| Tastenkombination                                             | Beschreibung                                   |
-| ------------------------------------------------------------- | ---------------------------------------------- |
-| <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>↓</kbd>/<kbd>↑</kbd> | Go to next/previous symbol (extension)         |
-| <kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>             | Symbols current file.  Type `:` to sort        |
-| <kbd>Crtl</kbd> + <kbd>T</kbd>                                | Go to Symbol                                   |
-| <kbd>F12</kbd>                                                | Go to definition                               |
-| <kbd>Alt</kbd> + <kbd>F12</kbd>                               | Go to declaration                              |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F12</kbd>           | Peek Implementation                            |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F10</kbd>           | Peek Definition                                |
-| <kbd>Shift</kbd> + <kbd>Tab</kbd>                             | Change focus between Peek List and Peek Editor |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>         | Show parameter info                            |
-| <kbd>Ctrl</kbd> + <kbd>K</kbd> <kbd>Ctrl</kbd> + <kbd>I</kbd> | Quickdocumentation                             |
-| <kbd></kbd>                                                   | Super definition/decleration                   |
-| <kbd>Ctrl</kbd> + <kbd>F12</kbd>                              | Go to implementations                          |
-| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F12</kbd>           | Peek implementations                           |
+| Tastenkombination                                             | Beschreibung                                                                                     |
+| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| <kbd>Alt</kbd> + <kbd>Enter</kbd>                             | Breadcrumbs; navigate with <kbd>Ctrl</kbd> + <kbd>↓</kbd>/<kbd>↑</kbd>/<kbd>←</kbd>/<kbd>→</kbd> |
+| <kbd>Crtl</kbd> + <kbd>Shift</kbd> + <kbd>O</kbd>             | Symbols current file.  Type `:` to sort                                                          |
+| <kbd>Crtl</kbd> + <kbd>T</kbd>                                | Go to Symbol                                                                                     |
+| <kbd>F12</kbd>                                                | Go to definition                                                                                 |
+| <kbd>Alt</kbd> + <kbd>F12</kbd>                               | Go to declaration                                                                                |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F12</kbd>           | Peek Implementation                                                                              |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F10</kbd>           | Peek Definition                                                                                  |
+| <kbd>Shift</kbd> + <kbd>Tab</kbd>                             | Change focus between Peek List and Peek Editor                                                   |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>         | Show parameter info                                                                              |
+| <kbd>Ctrl</kbd> + <kbd>K</kbd> <kbd>Ctrl</kbd> + <kbd>I</kbd> | Quickdocumentation                                                                               |
+| <kbd>Ctrl</kbd> + <kbd>F12</kbd>                              | Go to implementations                                                                            |
+| <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>F12</kbd>           | Peek implementations                                                                             |
 
 ## Edit Files
 
@@ -85,7 +74,6 @@ tags: [liste, vscode]
 | <kbd>Shift</kbd> + <kbd>F8</kbd>                               | Go to previous highlighted error                                 |
 | <kbd>F1</kbd>                                                  | Show Hover                                                       |
 | <kbd>Ctrl</kbd> + <kbd>.</kbd>                                 | Intention popup                                                  |
-| <kbd></kbd>                                                    | Refactoring (surround with...)                                   |
 | <kbd>Ctr</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>               | Refactor menu; specialized refactoring is more context sensitive |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>[</kbd>              | Fold section                                                     |
 | <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>]</kbd>              | Unfold section                                                   |
@@ -127,4 +115,4 @@ tags: [liste, vscode]
 
 Referenzen
 
-[Visual Studio Code Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+- [Visual Studio Code Key Bindings](https://code.visualstudio.com/docs/getstarted/keybindings)
