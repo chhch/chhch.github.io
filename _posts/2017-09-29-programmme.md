@@ -9,6 +9,7 @@ tags: [liste, elementary_os]
 - `sudo apt install htop`
 - `sudo apt install ncdu`
 - `sudo apt install curl`
+- `sudo apt install ubuntu-restricted-extras` (Codecs)
 - [Fish](https://fishshell.com/)
   - [Fisch als default Shell einstellen](https://fishshell.com/docs/current/tutorial.html#switching-to-fish): (`chsh -s usr/bin/fish`)
   - Prompt ausählen: `fish_config`
@@ -43,8 +44,6 @@ tags: [liste, elementary_os]
   - Dark Reader
   - LanguageTool
   - Google Übersetzer
-  - Bookmarkie - Bookmarks in a popup
-  - Mendeley Importer
   - [DuckDuckGo Einstellungen](https://duckduckgo.com/?key=3a073f8c7b36df078df401ed92f513b91d385309dc2fed15e2ebde48e0d79a1b1511dd0da387e53998036412ce9d09bf1283630098f29e90f6307dbd9b8fd2a4)
 - Fonts
   - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
@@ -58,16 +57,6 @@ tags: [liste, elementary_os]
 
 ## Troubelshooting
 
-- Mediacodecs: `sudo apt install ubuntu-restricted-extras`, ggf. [Mixer](https://github.com/childishgiant/mixer), um Volumen von Videos zu steuern, ggf. [weitere Codecs](https://wiki.ubuntuusers.de/Codecs/#Manuelle-Codec-Installation) https://github.com/elementary/videos/pull/285#issuecomment-993949262
-
-night light/mode not working: https://elementaryos.stackexchange.com/a/18670 ➡️ `gsettings set org.gnome.system.location enabled true`
-
-application opens two icons in plank https://elementaryos.stackexchange.com/a/20
-
-
-https://elementaryos.stackexchange.com/a/28319
-https://wiki.ubuntuusers.de/fprint/
-
-	
-Geometric Weather
-https://play.google.com/store/apps/details?id=wangdaye.com.geometricweather
+- night light/mode not working: <https://elementaryos.stackexchange.com/a/18670> ➡️ `gsettings set org.gnome.system.location enabled true`
+- application opens two icons in plank <https://elementaryos.stackexchange.com/a/20>
+- [fprint](https://wiki.ubuntuusers.de/fprint/): <https://elementaryos.stackexchange.com/a/28319>
