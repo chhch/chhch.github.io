@@ -5,7 +5,7 @@ tags: [liste, elementary_os]
 
 ## Installierte Programme
 
-- `sudo apt install software-properties-common htop ncdu curl ubuntu-restricted-extras`
+- `sudo apt install software-properties-common htop ncdu curl ubuntu-restricted-extras bat`
 - [Fish](https://fishshell.com/)
   - [Default Shell](https://fishshell.com/docs/current/index.html#default-shell) `chsh -s /usr/bin/fish`
   - Prompt `fish_config`
