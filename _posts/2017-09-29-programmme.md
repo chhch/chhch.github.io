@@ -1,52 +1,47 @@
 ---
 title: Systemkonfiguration
-tags: [liste, elementary_os]
+tags: [liste, fedora]
 ---
 
 ## Installierte Programme
 
-- `sudo apt install software-properties-common htop ncdu curl ubuntu-restricted-extras bat`
-- [Fish](https://fishshell.com/)
-  - [Default Shell](https://fishshell.com/docs/current/index.html#default-shell) `chsh -s /usr/bin/fish`
-  - Prompt `fish_config`
-- [Git](https://git-scm.com/download/linux)
-  - `git config --global user.name "chhch"`
-  - `git config --global user.email "chhch@users.noreply.github.com"`
-  - `chmod 600 ~/.ssh/id_rsa`
-  - `chmod 600 ~/.ssh/config`
-  - `ssh git@github.com`
+- `sudo dnf install htop ncdu bat`
+- Einstellungen
+    - Multitasking: Anwendungen wechseln = Nur von der aktuellen Arbeitsfläche anzeigen
+    - Energie: Bildschirm ausschalte = 10 Minuten
+    - Bildschirme: Nachtmodus = AN
+    - Maus und Tastfeld: Tastefeld Antippen zum Klicken = AN
+    - Tastatur: Eingabequelle = Englisch (International, mit AltGr-Akzenttaste)
+    - Tastatur: Eigene Tastenkombinationen
+        - [Set Gnome Keybindings]({{ site.baseurl }}{% link assets/misc/set-gnome-keybindings.sh %})
+        - Terminal: <kbd>Super</kbd> + <kbd>T</kbd> => kgx
+        - Emojis: <kbd>Super</kbd> + <kbd>E</kbd> => gnome-characters
+    - Benutzer: Anmeldung mit Fingerabdruck = Aktiviert
+- [Flathub](https://flatpak.org/setup/Fedora)
+    - [Console](https://gitlab.gnome.org/GNOME/console)
+    - [Déjà Dup](https://apps.gnome.org/de/app/org.gnome.DejaDup/)
+    - [Extension Manager](https://github.com/mjakeman/extension-manager)
+      - [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
+    - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify/#_installing_spotify_using_flatpak)
+- [fish](https://fishshell.com/)
+    - `chsh -s $(which fish)` set fish as [default shell](https://fishshell.com/docs/current/index.html#default-shell);
+      login again
+    - `fish_config`
+- [1Password](https://1password.com/de/downloads/linux/)
+    - [Turn on the 1Password SSH Agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent)
+    - [Configure Git commit signing with SSH](https://developer.1password.com/docs/ssh/git-commit-signing#step-1-configure-git-commit-signing-with-ssh)
+    - `git config --global user.name "chhch"`
+    - `git config --global user.email "chhch@users.noreply.github.com"`
+    - `ssh git@github.com`
+- [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
+    - `fish_add_path ~/.local/share/JetBrains/Toolbox/scripts`
 - [nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
-  - [Calling nvm use automatically in a directory with a .nvmrc file](https://github.com/nvm-sh/nvm#fish) ([Oh My Fish](https://github.com/oh-my-fish/oh-my-fish#installation), [bass](https://github.com/edc/bass))
-- [Sdkman](https://sdkman.io/)
-  - [Oh My Fish Plugin](https://github.com/deather/omf-sdk)
-  - Java
-- [Docker](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/) (replace `$(lsb_release -cs)` when installing)
-  - [Manage Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user)
-- [IntelliJ IDEA](https://github.com/JonasGroeger/jetbrains-ppa)
-- [KeePassXC](https://keepassxc.org/download/) (Flatpak)
-- [Déjà Dup](https://apps.gnome.org/de/app/org.gnome.DejaDup/) (Flatpak)
-  - `touch .deja-dup-ignore`
-- [Firefox](https://www.mozilla.org/de/firefox/new/) (Flatpak)
-  - Allow access to home folder
+    - [Calling nvm use automatically in a directory with a .nvmrc file](https://github.com/nvm-sh/nvm#fish) ([Oh My Fish](https://github.com/oh-my-fish/oh-my-fish#installation)
+      , [bass](https://github.com/edc/bass))
+- [sdkman](https://sdkman.io/)
+    - [Oh My Fish Plugin](https://github.com/deather/omf-sdk)
+    - `sdk install java`
+- [Docker](https://docs.docker.com/engine/install/fedora/)
+    - [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
 - [Chrome](https://www.google.com/intl/de/chrome/browser/desktop/index.html)
-  - uBlock Origin
-  - Vimium [Settings]({{ site.baseurl }}{% link assets/misc/vimium-options.json %})
-  - Dark Reader
-  - LanguageTool
-  - Google Übersetzer
-  - [DuckDuckGo Einstellungen](https://duckduckgo.com/?key=3a073f8c7b36df078df401ed92f513b91d385309dc2fed15e2ebde48e0d79a1b1511dd0da387e53998036412ce9d09bf1283630098f29e90f6307dbd9b8fd2a4)
-- [Spotify](https://www.spotify.com/de/download/linux/) (Flatpak)
-- [Peek](https://github.com/phw/peek) (Flatpak)
-- [Darkbar](https://github.com/bluesabre/darkbar) (Flatpak)
-- [Monitor](https://github.com/stsdc/monitor)
-- [Tresorit](https://tresorit.com/de/download) (before install `mkdir -p ~/.local/share/tresorit`)
-
-
-## Troubelshooting
-
-- [Night light not working](https://elementaryos.stackexchange.com/a/18670): `gsettings set org.gnome.system.location enabled true`
-- [Application opens two icons in plank](https://elementaryos.stackexchange.com/a/20)
-- [fprint](https://wiki.ubuntuusers.de/fprint/): <https://elementaryos.stackexchange.com/a/28319>
-- Shortcuts not working
-  - `sudo apt-get install dconf-editor && dconf-editor`
-  - Remove all binding, which overrides shortcuts in `/org/gnome/desktop/wm/keybindings/` 
+- [OpenH264](https://docs.fedoraproject.org/en-US/quick-docs/openh264/) for Firefox
