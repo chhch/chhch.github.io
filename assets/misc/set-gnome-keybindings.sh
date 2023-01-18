@@ -41,6 +41,14 @@ echo "[Keybinding] Kein Eintrag in Einstellungen"
 gsettings get org.freedesktop.ibus.panel.emoji unicode-hotkey
 gsettings set org.freedesktop.ibus.panel.emoji unicode-hotkey "[]"
 echo "...replaced with []"
+echo "[Keybinding] Navigation: Fenster eine Arbeitsfläche nach unten verschieben"
+gsettings get org.gnome.desktop.wm.keybindings move-to-workspace-down
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-down "[]"
+echo "...replaced with []"
+echo "[Keybinding] Navigation: Fenster eine Arbeitsfläche nach oben verschieben"
+gsettings get org.gnome.desktop.wm.keybindings move-to-workspace-up
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-up "[]"
+echo "...replaced with []"
 echo "[Keybinding] Navigation: Fenster eine Arbeitsfläche nach links verschieben"
 gsettings get org.gnome.desktop.wm.keybindings move-to-workspace-left
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-left "['<Super><Shift>Page_Up', '<Super><Shift><Alt>Left']"
