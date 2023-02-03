@@ -43,18 +43,8 @@ tags: [liste]
 ## News
 
 - [Hacker News](http://besthackernews.herokuapp.com/#)
-- [JavaScript Weekly](https://javascriptweekly.com/)
-- [Spring Blog](https://spring.io/blog/category/engineering)
-- [Java Annotated Monthly](https://www.jetbrains.com/lp/jam/)
 - [programming](https://www.reddit.com/r/programming/top/?t=month)
-- [JavaScript](https://www.reddit.com/r/javascript/top/?t=month)
-- [React](https://www.reddit.com/r/reactjs/top/?t=month)
-- [node](https://www.reddit.com/r/node/top/?t=month)
 - [web.dev Blog](https://web.dev/blog/)
-- [ui.dev Videos](https://www.youtube.com/c/uidotdev/videos)
-- [Best of JS](https://bestofjs.org/rankings/monthly)
-- [State of JavaScript](http://stateofjs.com/)
-- [State of CSS](https://stateofcss.com/)
 
 ## Design
 
@@ -94,3 +84,8 @@ tags: [liste]
 - [Ähnliche Papers finden](https://app.litmaps.co/)
 - [Ähnliche Papers finden II](https://www.connectedpapers.com/)
 
+### Artikel und Videos
+
+- [What is Spring Framework?](https://www.marcobehler.com/guides/spring-framework)
+- [Spring Security, demystified](https://www.youtube.com/watch?v=iJ2muJniikY)
+- [ui.dev Videos](https://www.youtube.com/c/uidotdev/videos)
