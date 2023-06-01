@@ -65,6 +65,10 @@ echo "[Keybinding] Navigation: Zur Arbeitsfläche nach rechts wechseln"
 gsettings get org.gnome.desktop.wm.keybindings switch-to-workspace-right
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Super>Page_Down', '<Super><Alt>Right']"
 echo "...replaced with ['<Super>Page_Down', '<Super><Alt>Right']"
+echo "[Keybinding] Navigation: Switch windows of an application"
+gsettings get org.gnome.desktop.wm.keybindings switch-group
+gsettings set org.gnome.desktop.wm.keybindings switch-group "['<Super>Above_Tab']"
+echo "...replaced with ['<Super>Above_Tab']"
 echo
 echo "Add keybindings"
 echo "[Keybinding] Starter: Persönlicher Ordner öffnen"
