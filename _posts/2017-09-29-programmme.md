@@ -6,19 +6,17 @@ tags: [liste, fedora]
 ## Installierte Programme
 
 - `sudo dnf install htop ncdu bat`
-- Einstellungen
-    - Multitasking: Anwendungen wechseln = Nur von der aktuellen Arbeitsfläche anzeigen
-    - Energie: Bildschirm ausschalte = 10 Minuten
-    - Bildschirme: Nachtmodus = AN
-    - Maus und Tastfeld: Tastefeld Antippen zum Klicken = AN
-    - Tastatur: Eingabequelle = Englisch (International, mit AltGr-Akzenttaste)
-    - Tastatur: Eigene Tastenkombinationen
+- Settings
+    - Power ➡ Screen Blank: `10 Minutes`
+      - Displays ➡ Nicht Light: `on`
+    - Mouse and Touchpad ➡ Touchpad ➡ Tap to Click: `on`
+    - Keyboard ➡ Input Sources ➡ English (intl., with AltGr dead keys)
+    - Keyboard ➡ Keyboad Shortcuts
         - [Set Gnome Keybindings]({{ site.baseurl }}{% link assets/misc/set-gnome-keybindings.sh %})
-        - Terminal: <kbd>Super</kbd> + <kbd>T</kbd> => kgx
-        - Emojis: <kbd>Super</kbd> + <kbd>E</kbd> => gnome-characters
-    - Benutzer: Anmeldung mit Fingerabdruck = Aktiviert
+        - Terminal: <kbd>Super</kbd> + <kbd>T</kbd>: `kgx`
+        - Emojis: <kbd>Super</kbd> + <kbd>E</kbd>: `gnome-characters`
+    - Users ➡ Fingerprint login ➡ `on`
 - [Flathub](https://flatpak.org/setup/Fedora)
-    - [Console](https://gitlab.gnome.org/GNOME/console)
     - [Déjà Dup](https://apps.gnome.org/de/app/org.gnome.DejaDup/)
     - [Extension Manager](https://github.com/mjakeman/extension-manager)
       - [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
@@ -44,4 +42,4 @@ tags: [liste, fedora]
 - [Docker](https://docs.docker.com/engine/install/fedora/)
     - [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
 - [Chrome](https://www.google.com/intl/de/chrome/browser/desktop/index.html)
-- [OpenH264](https://docs.fedoraproject.org/en-US/quick-docs/openh264/) for Firefox
+- [OpenH264](https://docs.fedoraproject.org/en-US/quick-docs/openh264/), Hardware Acceleration for Firefox ([1](https://fedoraproject.org/wiki/Firefox_Hardware_acceleration). [2](https://wiki.archlinux.org/title/Firefox#Hardware_video_acceleration))
