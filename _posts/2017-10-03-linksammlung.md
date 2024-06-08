@@ -18,6 +18,8 @@ tags: [ liste ]
 - [Explain Shell Commands](https://explainshell.com)
 - [Record Terminal Sessions](https://asciinema.org/)
 - Algorithm Visualizer ([1](http://visualgo.net/), [2](http://algo-visualizer.jasonpark.me/))
+- [Zeitzonen](https://time.fyi/timezones)
+- [Übersicht PWA Funktionen](https://whatpwacando.today/)
 
 ## Development
 
@@ -26,6 +28,8 @@ tags: [ liste ]
 - [Shape Up](https://basecamp.com/shapeup)
 - [Hacker News](https://hn.algolia.com/hot)
 - [programming](https://www.reddit.com/r/programming/top/?t=month)
+- [java](https://www.reddit.com/r/java/top/?t=month)
+- [java yt](https://www.youtube.com/@java/videos)
 
 ## Sonstiges
 
