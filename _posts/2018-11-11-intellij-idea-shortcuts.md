@@ -1,5 +1,5 @@
 ---
-title: Intellij IDEA Tastenkürzel
+title: Intellij IDEA Shortcuts
 tags: [tastenkürzel, intellij-idea]
 ---
 
