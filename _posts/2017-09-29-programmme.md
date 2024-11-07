@@ -8,18 +8,19 @@ tags: [liste, fedora]
 - `sudo dnf install htop ncdu bat`
 - Settings
     - Power ➡ Screen Blank: `10 Minutes`
-      - Displays ➡ Nicht Light: `on`
+      - Displays ➡ Night Light: `on`
     - Mouse and Touchpad ➡ Touchpad ➡ Tap to Click: `on`
     - Keyboard ➡ Input Sources ➡ English (intl., with AltGr dead keys)
     - Keyboard ➡ Keyboad Shortcuts
         - [Set Gnome Keybindings]({{ site.baseurl }}{% link assets/misc/set-gnome-keybindings.sh %})
-        - Terminal: <kbd>Super</kbd> + <kbd>T</kbd>: `kgx`
+        - Terminal: <kbd>Super</kbd> + <kbd>T</kbd>: `ptyxis`
         - Emojis: <kbd>Super</kbd> + <kbd>E</kbd>: `gnome-characters`
     - Users ➡ Fingerprint login ➡ `on`
 - [Flathub](https://flatpak.org/setup/Fedora)
     - [Déjà Dup](https://apps.gnome.org/de/app/org.gnome.DejaDup/)
     - [Extension Manager](https://github.com/mjakeman/extension-manager)
       - [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
+      - [Tiling-Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
     - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify/#_installing_spotify_using_flatpak)
 - [fish](https://fishshell.com/)
     - `chsh -s $(which fish)` set fish as [default shell](https://fishshell.com/docs/current/index.html#default-shell);
@@ -30,6 +31,7 @@ tags: [liste, fedora]
     - [Configure Git commit signing with SSH](https://developer.1password.com/docs/ssh/git-commit-signing#step-1-configure-git-commit-signing-with-ssh)
     - `git config --global user.name "chhch"`
     - `git config --global user.email "chhch@users.noreply.github.com"`
+    - `git config --global core.autocrlf input`
     - `ssh git@github.com`
 - [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
     - `fish_add_path ~/.local/share/JetBrains/Toolbox/scripts`
