@@ -21,6 +21,7 @@ tags: [liste, fedora]
     - [Extension Manager](https://github.com/mjakeman/extension-manager)
       - [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
       - [Tiling-Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
+        - Gaps: 12,[Keybindings]({{ site.baseurl }}{% link assets/images/Keybindings.png %})
     - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify/#_installing_spotify_using_flatpak)
 - [fish](https://fishshell.com/)
     - `chsh -s $(which fish)` set fish as [default shell](https://fishshell.com/docs/current/index.html#default-shell);
