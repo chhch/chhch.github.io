@@ -29,6 +29,7 @@ tags: [ liste ]
 - [Hacker News](https://hn.algolia.com/hot)
 - [programming](https://www.reddit.com/r/programming/top/?t=month)
 - [java](https://www.reddit.com/r/java/top/?t=month)
+- [postgresql](https://www.reddit.com/r/PostgreSQL/top/?t=month)
 - [java yt](https://www.youtube.com/@java/videos)
 
 ## Sonstiges
