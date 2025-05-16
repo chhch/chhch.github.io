@@ -5,7 +5,16 @@ tags: [liste, fedora]
 
 ## Installierte Programme
 
-- `sudo dnf install htop ncdu bat`
+- `sudo dnf install fish htop ncdu bat difftastic hexyl fd-find gnome-themes-extra`
+  - [fish](https://fishshell.com/)
+    - `chsh -s $(which fish)` set fish as [default shell](https://fishshell.com/docs/current/index.html#default-shell); login again
+    - `fish_config`
+  - [htop](https://htop.dev/)
+  - [ncdu](https://dev.yorhel.nl/ncdu)
+  - [bat](https://github.com/sharkdp/bat)
+  - [difftastic](https://difftastic.wilfred.me.uk/)
+  - [hexyl](https://github.com/sharkdp/hexyl)
+  - [fd](https://github.com/sharkdp/fd)
 - Settings
     - Power ➡ Screen Blank: `10 Minutes`
       - Displays ➡ Night Light: `on`
@@ -20,13 +29,14 @@ tags: [liste, fedora]
     - [Déjà Dup](https://apps.gnome.org/de/app/org.gnome.DejaDup/)
     - [Extension Manager](https://github.com/mjakeman/extension-manager)
       - [Night Theme Switcher](https://extensions.gnome.org/extension/2236/night-theme-switcher/)
+        - Run commands: Sunrise `gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"`
+        - Run commands: Sunet `gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"`
       - [Tiling-Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
         - Gaps: 12,[Keybindings]({{ site.baseurl }}{% link assets/images/Keybindings.png %})
     - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify/#_installing_spotify_using_flatpak)
-- [fish](https://fishshell.com/)
-    - `chsh -s $(which fish)` set fish as [default shell](https://fishshell.com/docs/current/index.html#default-shell);
-      login again
-    - `fish_config`
+    - [Pinta](https://www.pinta-project.com/)
+    - [Terminal](https://gitlab.gnome.org/chergert/ptyxis)
+      - Appearance -> Palette -> `VS Code`
 - [1Password](https://1password.com/de/downloads/linux/)
     - [Turn on the 1Password SSH Agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent)
     - [Configure Git commit signing with SSH](https://developer.1password.com/docs/ssh/git-commit-signing#step-1-configure-git-commit-signing-with-ssh)
@@ -34,6 +44,7 @@ tags: [liste, fedora]
     - `git config --global user.email "chhch@users.noreply.github.com"`
     - `git config --global core.autocrlf input`
     - `ssh git@github.com`
+- Git config https://difftastic.wilfred.me.uk/git.html
 - [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
     - `fish_add_path ~/.local/share/JetBrains/Toolbox/scripts`
 - [nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
