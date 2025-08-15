@@ -7,7 +7,6 @@ tags: [ liste ]
 
 - [Regex Editor](https://regexr.com/)
 - [Crontab Editor](https://crontab.guru/)
-- [Markdown Editor](https://stackedit.io/)
 - [ASCII Editor](http://asciiflow.com/)
 - [Whiteboard](https://excalidraw.com/)
 - [Diagram Editor](https://www.draw.io/)
@@ -32,7 +31,10 @@ tags: [ liste ]
 - [postgresql](https://www.reddit.com/r/PostgreSQL/top/?t=month)
 - [java yt](https://www.youtube.com/@java/videos)
 
-## Sonstiges
+## PostgreSQL
 
-- [Trash Mail](https://www.mohmal.com/de)
-- [Trash SMS](https://smsreceivefree.com/)
+- [Execution Plan Visualizer](https://explain.dalibo.com/)
+- [Lock Conflicts](https://postgres-locks.husseinnasser.com/)
+- [Type Explorer](https://masteringpostgres.com/types)
+- [Don't Do This](https://wiki.postgresql.org/wiki/Don%27t_Do_This)
+- [Query Collection](https://stborden.wordpress.com/2024/12/17/some-of-my-favorite-things-postgres-queries/)
