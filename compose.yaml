@@ -1,8 +1,7 @@
-version: "3.7"
-services: 
+services:
   jekyll:
-    image: jekyll/jekyll:3.8
-    command: jekyll serve --drafts --livereload
+    image: jekyll/builder:pages
+    command: sh -lc "gem install webrick && jekyll serve --drafts --livereload"
     volumes:
       - type: bind
         source: .

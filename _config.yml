@@ -7,6 +7,7 @@ description:          Dies. Das. Einfach verschiedene Dinge.
 lang:                 de_DE
 author:               chhch
 date_format:          "%d.%m.%Y"
+repository:           chhch/chhch.github.io
 
 ################################################################################
 # Default Settings                                                             #
@@ -72,4 +73,4 @@ kramdown:
   syntax_highlighter: rouge               # cannot changed
   input:              GFM                 # can changed
   hard_wrap:          false               # can changed
-  gfm_quirks:         paragraph_end       # can changed
+  gfm_quirks:         [paragraph_end]     # can changed
