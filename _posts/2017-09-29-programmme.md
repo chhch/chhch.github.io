@@ -21,7 +21,7 @@ tags: [liste, fedora]
     - Mouse and Touchpad ➡ Touchpad ➡ Tap to Click: `on`
     - Keyboard ➡ Input Sources ➡ English (intl., with AltGr dead keys)
     - Keyboard ➡ Keyboad Shortcuts
-        - [Set Gnome Keybindings]({{ site.baseurl }}{% link assets/misc/set-gnome-keybindings.sh %})
+        - [Set Gnome Keybindings]({{ '/assets/misc/set-gnome-keybindings.sh' | relative_url }})
         - Terminal: <kbd>Super</kbd> + <kbd>T</kbd>: `ptyxis`
         - Emojis: <kbd>Super</kbd> + <kbd>E</kbd>: `gnome-characters`
     - Users ➡ Fingerprint login ➡ `on`
@@ -32,7 +32,7 @@ tags: [liste, fedora]
         - Run commands: Sunrise `gsettings set org.gnome.desktop.interface gtk-theme "Adwaita"`
         - Run commands: Sunet `gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"`
       - [Tiling-Assistant](https://extensions.gnome.org/extension/3733/tiling-assistant/)
-        - Gaps: 12,[Keybindings]({{ site.baseurl }}{% link assets/images/Keybindings.png %})
+        - Gaps: 12,[Keybindings]({{ '/assets/images/Keybindings.png' | relative_url }})
     - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify/#_installing_spotify_using_flatpak)
     - [Pinta](https://www.pinta-project.com/)
     - [Terminal](https://gitlab.gnome.org/chergert/ptyxis)

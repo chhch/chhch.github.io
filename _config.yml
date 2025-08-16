@@ -4,10 +4,12 @@
 
 title:                Kladde
 description:          Dies. Das. Einfach verschiedene Dinge.
-lang:                 de_DE
+lang:                 de-DE
 author:               chhch
 date_format:          "%d.%m.%Y"
 repository:           chhch/chhch.github.io
+url:                  https://kladde.hllh.de
+baseurl:              ""
 
 ################################################################################
 # Default Settings                                                             #
@@ -19,7 +21,7 @@ repository:           chhch/chhch.github.io
 # Handling Reading
 safe:                 true                # cannot changed
 exclude:
-  - docker-compose.yaml
+  - compose.yaml
   - Gemfile
   - Gemfile.lock
 
@@ -64,7 +66,7 @@ incremental:          false               # cannot changed
 permalink:            pretty
 
 # Theme
-theme:                jekyll-theme-primer # can changed
+theme:                minima              # can changed
 
 # Markdown Processors
 kramdown:

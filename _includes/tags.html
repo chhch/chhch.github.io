@@ -1,6 +1,6 @@
 <span class="post-tags">
   {%- for tag in include.tags -%}
-  <a href="{{ site.baseurl }}{% link tags.html %}#{{tag | slugize}}"><span class="tag">{{ tag }}</span></a>
+  <a href="{{ 'tags' | relative_url }}#{{ tag | slugify }}"><span class="tag">{{ tag }}</span></a>
   {%- unless forloop.last %}&nbsp;{% endunless -%}
   {%- endfor -%}
 </span>

@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="{{ page.lang | default: site.lang | default: 'de' }}">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
-    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}{% link favicon.ico %}">
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}{% link assets/css/style.scss %}">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans:300,300i,600" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.2.0/css/all.css" integrity="sha384-EXatlQyrOJgDaM9/a74ArMzy7/2bTMSrZj8ID1IPeVmc3GncfCugefCFWSLj8JL/" crossorigin="anonymous">
     {% feed_meta %}
 </head>
 <body>
 <header>
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title | escape }}</a>
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
 </header>
 
 <main>
@@ -23,30 +22,34 @@
 <footer>
     <ul class="social-media-list">
       <li>
-          <a href="https://github.com/chhch">
-              <i class="fab fa-github-square fa-2x"></i>
+          <a href="https://github.com/chhch" aria-label="GitHub">
+              <i class="fab fa-github-square fa-2x" aria-hidden="true"></i>
           </a>
       </li>
       <li>
-          <a href="mailto:ch@hllh.de">
-              <i class="fas fa-envelope-square fa-2x"></i>
+          <a href="mailto:ch@hllh.de" aria-label="E-Mail">
+              <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
           </a>
       </li>
       <li>
-        <a href="{{ site.baseurl }}feed.xml">
-            <i class="fas fa-rss-square fa-2x"></i>
+        <a href="{{ '/feed.xml' | relative_url }}" aria-label="RSS-Feed">
+            <i class="fas fa-rss-square fa-2x" aria-hidden="true"></i>
         </a>
       </li>
     </ul>
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/5.0.0/anchor.js" integrity="sha512-pg337haD8zVtCIHrlENuI1sI9ZGzS50B/WzIo3yK8WeB9ecBkyxC0eBnv0Ag7icWXJ6qf2RgMF93804dJXc2VA==" crossorigin="anonymous" defer></script>
 <script>
-  anchors.options = {
-    icon: '',
-    placement: 'left',
-    visible: 'always'
-  };
-  anchors.add('h2').add('.tag-head');
+    globalThis.addEventListener('DOMContentLoaded', function () {
+    if (globalThis.anchors) {
+      anchors.options = {
+        icon: '',
+        placement: 'left',
+        visible: 'always'
+      };
+      anchors.add('h2').add('.tag-head');
+    }
+  });
 </script>
 </body>
 </html>
