@@ -40,11 +40,11 @@ tags: [liste, fedora]
 - [1Password](https://1password.com/de/downloads/linux/)
     - [Turn on the 1Password SSH Agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent)
     - [Configure Git commit signing with SSH](https://developer.1password.com/docs/ssh/git-commit-signing#step-1-configure-git-commit-signing-with-ssh)
+    - [Use Difftastic as the default diff tool](https://difftastic.wilfred.me.uk/git.html)
     - `git config --global user.name "chhch"`
     - `git config --global user.email "chhch@users.noreply.github.com"`
     - `git config --global core.autocrlf input`
     - `ssh git@github.com`
-    - [Set Difftastic](https://difftastic.wilfred.me.uk/git.html)
 - [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
     - `fish_add_path ~/.local/share/JetBrains/Toolbox/scripts`
 - [nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
