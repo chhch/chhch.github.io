@@ -19,17 +19,20 @@ tags: [ liste ]
 - Algorithm Visualizer ([1](http://visualgo.net/), [2](http://algo-visualizer.jasonpark.me/))
 - [Zeitzonen](https://time.fyi/timezones)
 - [Übersicht PWA Funktionen](https://whatpwacando.today/)
+- [UTF-8 Playground](https://utf8-playground.netlify.app/1F44B)
+- [Software Licenses Overview](https://tldrlegal.com/)
 
 ## Development
 
-- [Thoughtworks Technologie Radar](https://www.thoughtworks.com/de/radar)
-- [Software Licenses Overview](https://tldrlegal.com/)
-- [Shape Up](https://basecamp.com/shapeup)
 - [Hacker News](https://hn.algolia.com/hot)
 - [programming](https://www.reddit.com/r/programming/top/?t=month)
 - [java](https://www.reddit.com/r/java/top/?t=month)
 - [postgresql](https://www.reddit.com/r/PostgreSQL/top/?t=month)
 - [java yt](https://www.youtube.com/@java/videos)
+- [GitLab Blog](https://about.gitlab.com/blog/archive/)
+- [Docker Engine Release Notes](https://docs.docker.com/engine/release-notes)
+- [Docker Compose Release Notes](https://docs.docker.com/compose/releases/release-notes/)
+- [Fish Release Notes](https://fishshell.com/docs/current/relnotes.html)
 
 ## PostgreSQL
 

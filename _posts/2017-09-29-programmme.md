@@ -48,10 +48,10 @@ tags: [liste, fedora]
 - [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
     - `fish_add_path ~/.local/share/JetBrains/Toolbox/scripts`
 - [nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
-    - [Calling nvm use automatically in a directory with a .nvmrc file](https://github.com/nvm-sh/nvm#fish) ([Oh My Fish](https://github.com/oh-my-fish/oh-my-fish#installation)
+    - [Calling nvm use automatically in a directory with a .nvmrc file](https://github.com/nvm-sh/nvm#fish) ([Fisher](https://github.com/jorgebucaran/fisher)
       , [bass](https://github.com/edc/bass))
 - [sdkman](https://sdkman.io/)
-    - [Oh My Fish Plugin](https://github.com/deather/omf-sdk)
+    - [Fish Plugin](https://github.com/reitzig/sdkman-for-fish)
     - `sdk install java`
 - [Docker](https://docs.docker.com/engine/install/fedora/)
     - [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
