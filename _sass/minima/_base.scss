@@ -109,7 +109,7 @@ a {
  */
 blockquote {
   @include relative-font-size(1.125);
-  border-left: 4px solid $color-accent-2;
+  border-left: 4px solid var(--color-accent-2);
   color: $color-accent-1;
   font-style: italic;
   letter-spacing: -1px;
@@ -154,9 +154,9 @@ hr {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid darken($color-accent-2, 4%);
+  border: 1px solid var(--color-code-border);
   border-radius: 3px;
-  background-color: $color-accent-2;
+  background-color: var(--color-code-bg);
 }
 
 code {
@@ -200,11 +200,11 @@ pre {
  * Keyboard Input element
  */
 kbd {
-    background-color: #eee;
+    background-color: var(--color-kbd-bg);
     border-radius: 3px;
-    border: 1px solid #b4b4b4;
+    border: 1px solid var(--color-kbd-border);
     box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
-    color: #333;
+    color: var(--color-kbd-color);
     display: inline-block;
     font-size: .85em;
     font-weight: 700;
@@ -234,8 +234,8 @@ dd {
  * Tables
  */
 table {
-  border-top: 2px solid darken($color-accent-2, 12%);
-  border-bottom: 2px solid darken($color-accent-2, 12%);
+  border-top: 2px solid var(--color-code-border);
+  border-bottom: 2px solid var(--color-code-border);
   border-collapse: collapse;
   margin-bottom: $spacing-unit;
   width: 100%;
@@ -245,11 +245,11 @@ table {
   }
 
   th {
-    border-bottom: 1px solid darken($color-accent-2, 12%);
+    border-bottom: 1px solid var(--color-code-border);
     text-align: center;
   }
 
   td {
-    border-bottom: 1px solid $color-accent-2;
+    border-bottom: 1px solid var(--color-accent-2);
   }
 }

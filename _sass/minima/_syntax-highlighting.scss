@@ -2,11 +2,11 @@
  * Syntax highlighting styles
  */
 .highlight {
-  background: $color-background;
+  background: var(--color-background);
   @extend %vertical-rhythm;
 
   .highlighter-rouge & {
-    background: $color-accent-2;
+    background: var(--color-accent-2);
   }
 
   .c     { color: #998; font-style: italic } // Comment
@@ -68,4 +68,42 @@
   .vg    { color: #008080 } // Name.Variable.Global
   .vi    { color: #008080 } // Name.Variable.Instance
   .il    { color: #099 } // Literal.Number.Integer.Long
+}
+
+@media (prefers-color-scheme: dark) {
+  .highlight {
+    .c     { color: #7C8B9E; font-style: italic }
+    .err   { color: #F07178; background-color: #3A2020 }
+    .k     { color: #C792EA; font-weight: bold }
+    .o     { color: #89DDFF; font-weight: bold }
+    .cm    { color: #7C8B9E; font-style: italic }
+    .cp    { color: #8899B0; font-weight: bold }
+    .c1    { color: #7C8B9E; font-style: italic }
+    .cs    { color: #8899B0; font-weight: bold; font-style: italic }
+    .gd    { color: #F07178; background-color: #3A2020 }
+    .gi    { color: #C3E88D; background-color: #1E3A1E }
+    .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx { color: #C3E88D }
+    .ss    { color: #F78C6C }
+    .sr    { color: #89DDFF }
+    .m, .mf, .mh, .mi, .mo, .il { color: #F78C6C }
+    .na    { color: #FFCB6B }
+    .nb    { color: #82AAFF }
+    .nc    { color: #FFCB6B; font-weight: bold }
+    .no    { color: #89DDFF }
+    .ne    { color: #F07178; font-weight: bold }
+    .nf    { color: #82AAFF; font-weight: bold }
+    .nn    { color: #FFCB6B }
+    .nt    { color: #F07178 }
+    .nv, .vc, .vg, .vi { color: #89DDFF }
+    .kt    { color: #FFCB6B; font-weight: bold }
+    .kd, .kp, .kr, .kc { color: #C792EA; font-weight: bold }
+    .w     { color: #555 }
+    .go    { color: #888 }
+    .gp    { color: #8899B0 }
+    .gh    { color: #8899B0 }
+    .gu    { color: #8899B0 }
+    .bp    { color: #8899B0 }
+    .ge    { font-style: italic }
+    .gs    { font-weight: bold }
+  }
 }

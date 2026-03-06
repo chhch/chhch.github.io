@@ -17,15 +17,53 @@ $spacing-unit-big:      $spacing-unit * 1.865;
 $spacing-unit-small:    $spacing-unit / 2;
 $spacing-unit-smaller:  $spacing-unit / 3;
 
-$color-text:            #000000 !default;
-$color-background:      #FFFFFF !default;
+// --- Static Sass variables (still used where CSS custom props aren't needed) ---
 $color-accent-1:        #FF9800 !default;
-$color-accent-2:        #F6F6F6 !default;
-$color-accent-3:        #6B778F !default;
 
-$color-link:            $color-accent-3 !default;
-$color-link-visited:    darken($color-link, 15%) !default;
-$color-link-hover:      $color-text !default;
+// --- CSS Custom Properties for theming ---
+:root {
+  --color-text:         #000000;
+  --color-background:   #FFFFFF;
+  --color-accent-2:     #F6F6F6;
+  --color-accent-3:     #6B778F;
+  --color-link:         var(--color-accent-3);
+  --color-link-visited: #4A5A72;
+  --color-link-hover:   var(--color-text);
+  --color-code-bg:      #F6F6F6;
+  --color-code-border:  #ECECEC;
+  --color-kbd-bg:       #eeeeee;
+  --color-kbd-border:   #b4b4b4;
+  --color-kbd-color:    #333333;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text:         #E0E0E0;
+    --color-background:   #1E1E1E;
+    --color-accent-2:     #2A2A2A;
+    --color-accent-3:     #8899B0;
+    --color-link:         var(--color-accent-3);
+    --color-link-visited: #A0B0C8;
+    --color-link-hover:   var(--color-text);
+    --color-code-bg:      #2A2A2A;
+    --color-code-border:  #3A3A3A;
+    --color-kbd-bg:       #333333;
+    --color-kbd-border:   #555555;
+    --color-kbd-color:    #E0E0E0;
+  }
+}
+
+// Sass variables pointing to CSS custom properties (for use in Sass expressions)
+// Note: These can be used directly in property values, but NOT in Sass functions
+// like darken() / lighten(). Replace those with the CSS custom props above.
+$color-text:            var(--color-text) !default;
+$color-background:      var(--color-background) !default;
+$color-accent-2:        var(--color-accent-2) !default;
+$color-accent-3:        var(--color-accent-3) !default;
+
+$color-link:            var(--color-link) !default;
+$color-link-visited:    var(--color-link-visited) !default;
+$color-link-hover:      var(--color-link-hover) !default;
 
 // Width of the content area
 $content-width:         800px !default;
