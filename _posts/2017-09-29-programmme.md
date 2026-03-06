@@ -44,7 +44,7 @@ tags: [liste, fedora]
     - `git config --global user.email "chhch@users.noreply.github.com"`
     - `git config --global core.autocrlf input`
     - `ssh git@github.com`
-- Git config https://difftastic.wilfred.me.uk/git.html
+    - [Set Difftastic](https://difftastic.wilfred.me.uk/git.html)
 - [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
     - `fish_add_path ~/.local/share/JetBrains/Toolbox/scripts`
 - [nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
