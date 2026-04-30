@@ -8,6 +8,7 @@ tags: [liste, fedora]
 - `sudo dnf install fish htop ncdu bat difftastic hexyl fd-find gnome-themes-extra`
   - [fish](https://fishshell.com/)
     - `chsh -s $(which fish)` set fish as [default shell](https://fishshell.com/docs/current/index.html#default-shell); login again
+    - `fish_config theme choose default-rgb`
     - `fish_config`
   - [htop](https://htop.dev/)
   - [ncdu](https://dev.yorhel.nl/ncdu)
@@ -35,8 +36,6 @@ tags: [liste, fedora]
         - Gaps: 12,[Keybindings]({{ '/assets/images/Keybindings.png' | relative_url }})
     - [Spotify](https://docs.fedoraproject.org/en-US/quick-docs/installing-spotify/#_installing_spotify_using_flatpak)
     - [Pinta](https://www.pinta-project.com/)
-    - [Terminal](https://gitlab.gnome.org/chergert/ptyxis)
-      - Appearance -> Palette -> `VS Code`
 - [1Password](https://1password.com/de/downloads/linux/)
     - [Turn on the 1Password SSH Agent](https://developer.1password.com/docs/ssh/get-started/#step-3-turn-on-the-1password-ssh-agent)
     - [Configure Git commit signing with SSH](https://developer.1password.com/docs/ssh/git-commit-signing#step-1-configure-git-commit-signing-with-ssh)
