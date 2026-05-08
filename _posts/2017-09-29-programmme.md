@@ -46,12 +46,10 @@ tags: [liste, fedora]
     - `ssh git@github.com`
 - [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/)
     - `fish_add_path ~/.local/share/JetBrains/Toolbox/scripts`
-- [nvm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-version-manager-to-install-nodejs-and-npm)
-    - [Calling nvm use automatically in a directory with a .nvmrc file](https://github.com/nvm-sh/nvm#fish) ([Fisher](https://github.com/jorgebucaran/fisher)
-      , [bass](https://github.com/edc/bass))
-- [sdkman](https://sdkman.io/)
-    - [Fish Plugin](https://github.com/reitzig/sdkman-for-fish)
-    - `sdk install java`
+- [mise](https://mise.jdx.dev/installing-mise.html#fedora-41-rhel-9-centos-stream-9)
+  - [Add to fish](https://mise.jdx.dev/installing-mise.html#fish)
+  - [Add autocompletion](https://mise.jdx.dev/installing-mise.html#autocompletion)
+  - [Add Gradle toolchains detection](https://mise.jdx.dev/lang/java.html#gradle-toolchains-detection)
 - [Docker](https://docs.docker.com/engine/install/fedora/)
     - [Post-installation steps for Linux](https://docs.docker.com/engine/install/linux-postinstall/)
 - [Chrome](https://www.google.com/intl/de/chrome/browser/desktop/index.html)
