@@ -8,8 +8,20 @@ tags: [liste, fedora]
 - `sudo dnf install fish htop ncdu bat difftastic hexyl fd-find gnome-themes-extra`
   - [fish](https://fishshell.com/)
     - `chsh -s $(which fish)` set fish as [default shell](https://fishshell.com/docs/current/index.html#default-shell); login again
-    - `fish_config theme choose default-rgb`
-    - `fish_config`
+    - Begrüßungsnachricht entfernen: `set -U fish_greeting`
+    - Prompt ändern: `fish_config prompt save arrow`
+    - Theme ändern: 
+      ```
+      # ~/.config/fish/config.fish
+      if status is-interactive
+          # Commands to run in interactive sessions can go here
+          
+          # Can't use fish_config theme save default-rgb, 
+          #  see https://github.com/fish-shell/fish-shell/issues/12278.
+          # Instead use `choose` which only applies to the current session.
+          fish_config theme choose default-rgb
+      end 
+      ```
   - [htop](https://htop.dev/)
   - [ncdu](https://dev.yorhel.nl/ncdu)
   - [bat](https://github.com/sharkdp/bat)
